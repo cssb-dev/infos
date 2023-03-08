@@ -1,0 +1,8 @@
+**/.sass-cache
+.cproject
+.project
+_site
+Gemfile.lock
+vendor
+.bundle
+.jekyll-metadata
