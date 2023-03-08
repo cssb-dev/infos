@@ -1,6 +1,6 @@
 # Source files for CSSB official documentation website 
 
-URL : [TODO]
+URL : https://cssb-dev.github.io/infos
 
 Web content is written in .md files. After committing the changes on the master branch, Jekyll is executed on them to generate .html files, and the website is automatically updated. 
 
