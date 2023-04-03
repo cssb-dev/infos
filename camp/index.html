@@ -1,0 +1,11 @@
+---
+layout: category
+title: Camp d'été
+description: Parents, Compagnons, trouvez ce dont vous avez besoin à propos du camp d'été
+---
+
+{% for page in site.pages %}
+  {% if page.url contains '/camp/' and page.url != '/camp/' %}
+    {% include page-card.html %}
+  {% endif %}
+{% endfor %}

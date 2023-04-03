@@ -1,28 +1,90 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
-title: Compagnie Secouriste Sainte Barbe
-email: 
-description: > # this means to ignore newlines until "baseurl:"
-        Site d'informations générales
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-baseurl: "/infos" # the subpath of your site, e.g. /blog
-url: "https://cssb-dev.github.io" # the base hostname & protocol for your site
-#twitter_username: 
-#github_username: 
+title: CSSB - Informations
+description: Site d'informations et de documentation - Compagnie Secouriste Sainte Barbe
+theme_color: a80000 # Accent colors on some browsers and embeds # Do not include the # of the HEX color code
+baseurl: / # the subpath of your site, e.g. /support
+url: https://nano-ck.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+permalink: /:categories/:title
+
+content_type: Documentation #Define whether this is a knowledge base, help center, or something else
+use_authors: true #Set this to false to disable showing post authors
+
+brand_logo: logo.png
+brand_name: CSSB
+header: Comment puis-je vous aider?
+subheader: Infos & Documentation
+
+meta_image: cssb-meta.png
+
+# Social Links
+twitter_username:
+facebook_page:
 github_username: cssb-dev
-git_repo: infos
+email: remi [_at_] cssb.fr
+linkedin_page:
+instagram_username: compagnie_sainte_barbe
+
+
+# Navivation
+nav_item_one: Camp
+nav_item_one_link: https://nano-ck.github.io/camp
+
+nav_item_two: Administration
+nav_item_two_link: https://nano-ck.github.io/admin
+
+nav_item_three: Discord #
+nav_item_three_link: https://nano-ck.github.io/discord 
+
+nav_button: Retour à l'accueil
+nav_button_link: https://nano-ck.github.io
+
+# More Help
+help_one_title: Suggestion
+help_one_content: N'hésitez pas à signaler tout contenu incomplet et suggérer des améliorations en nous contactant par mail à remi [_at_] cssb.fr
+help_one_button: 
+help_one_link: 
+
+help_two_title: Aide supplémentaire
+help_two_content: Vous pouvez utiliser le Discord de la Compagnie Secouriste Sainte Barbe pour obtenir de l'aide supplémentaire. Lien par mail via remi [_at_] cssb.fr
+help_two_button: 
+help_two_link: 
 
 # Build settings
-markdown: kramdown
-
+theme: minima
 plugins:
-  - jemoji
-  - jekyll-relative-links
+  - jekyll-feed
+  - jekyll-last-modified-at
 
-#theme: jekyll-theme-chirpy
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+
+
+sass:
+  sass_dir:          _scss
+  style:            :compressed

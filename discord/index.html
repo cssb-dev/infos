@@ -1,0 +1,11 @@
+---
+layout: category
+title: Discord
+description: Aide à l'utilisation de Discord pour les discussions CSSB internes
+---
+
+{% for page in site.pages %}
+  {% if page.url contains '/discord/' and page.url != '/discord/' %}
+    {% include page-card.html %}
+  {% endif %}
+{% endfor %}

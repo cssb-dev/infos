@@ -1,0 +1,74 @@
+---
+layout: default
+title: Accueil
+---
+{% assign page_category = site.data.category_list[page.category] %}
+{% assign admin_page = site.pages | where: "url", "/admin/" | first %}
+{% assign camp_page = site.pages | where: "url", "/camp/" | first %}
+{% assign discord_page = site.pages | where: "url", "/discord/" | first %}
+
+  {% include header-home.html %}
+    <div class="container-full">
+      <div class="container grid-xl">
+        <div class="columns negative-m-s">
+          <div class="column col-12 text-center">
+            <h6 class="text-secondary">Selectionnez une catégorie</h6>
+          </div>
+          
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/camp">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">Camp d'été</h5>
+                  <p class="m-0">{{ camp_page.description }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/admin">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">Administration</h5>
+                  <p class="m-0">{{ admin_page.description }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/discord">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">Discord</h5>
+                  <p class="m-0">{{ discord_page.description }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- {% for category in site.categories %}
+          {% assign page_name = category[0] %}
+          {% assign page_category = site.data.categories[page_name] %}
+          <div class="column col-4 col-md-6 col-sm-12">
+            <a href="{{ site.baseurl }}/{{ page_name | slugify }}">
+              <div class="card card-link">
+                <div class="card-body text-center my-4">
+                  <h5 class="text-bold">{{ page_category.name }}</h5>
+                      
+                  {% if category[1].size == 1 %}
+                  <p class="m-0">{{ category[1] | size }} article</p>
+                  {% else %}
+                  <p class="m-0">{{ category[1] | size }} articles</p>
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+          </div>
+          {% endfor %} -->
+
+          {% include more-help.html %}
+        </div>
+      </div>
+    </div>

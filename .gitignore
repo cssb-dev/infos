@@ -1,8 +1,6 @@
-**/.sass-cache
-.cproject
-.project
 _site
-Gemfile.lock
-vendor
-.bundle
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
+vendor
+Odin.ai
