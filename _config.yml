@@ -22,7 +22,7 @@ title: CSSB - Informations
 description: Site d'informations et de documentation - Compagnie Secouriste Sainte Barbe
 theme_color: a80000 # Accent colors on some browsers and embeds # Do not include the # of the HEX color code
 baseurl: / # the subpath of your site, e.g. /support
-url: https://nano-ck.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
+url: https://cssb-dev.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 content_type: Documentation #Define whether this is a knowledge base, help center, or something else
