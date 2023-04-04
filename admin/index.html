@@ -5,8 +5,4 @@ description: Aide à l'utilisation des outils d'administration pour secrétaires
 icon: uil-cog
 ---
 
-{% for page in site.pages %}
-  {% if page.url contains '/admin/' and page.url != '/admin/' %}
-    {% include page-card.html %}
-  {% endif %}
-{% endfor %}
+{% include category-display.html %}

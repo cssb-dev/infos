@@ -1,0 +1,21 @@
+{% assign p = page %}
+{% for page in site.pages %}
+
+  {% if page != p %}
+    {% assign checkArray = page.dir | split:p.dir %}
+    
+    {% if page.dir == p.dir %} <!-- If ever it's a page that is in the same directory and isn't the actual page -->
+    {% include page-card.html %}
+    
+    
+    {% elsif checkArray[0] == blank %} <!-- If ever it's a page that is in a subdirectory and isn't the actual page -->
+    
+    {% assign category_page = site.pages | where: "url", page.dir | first %}
+    {% if category_page.title == page.title %} <!-- If ever it's a category page-->
+        {% include category-card.html page_name=page.dir%}
+      {% endif %}
+
+    {% endif %}
+
+  {% endif %}
+{% endfor %}

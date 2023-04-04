@@ -5,8 +5,4 @@ description: Parents, Compagnons, trouvez ce dont vous avez besoin pour prépare
 icon: uil-backpack
 ---
 
-{% for page in site.pages %}
-  {% if page.url contains '/camp/' and page.url != '/camp/' %}
-    {% include page-card.html %}
-  {% endif %}
-{% endfor %}
+{% include category-display.html %}
