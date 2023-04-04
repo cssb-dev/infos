@@ -4,7 +4,10 @@ layout: default
 
 {% include header.html %}
 
-{% assign page_category = site.data.category_list[page.category] %}
+{% assign parent_folder = page.url | split: '/' | last | remove: '.html' %}
+{% assign parent_folder_url = page.url | split: parent_folder | first %}
+{% assign index_page = site.pages | where: "url", parent_folder_url | first %}
+
 
 
 <div class="container-full">
@@ -15,10 +18,10 @@ layout: default
         <div class="column col-12">
           <ul class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="{{ site.url }}{{ site.baseurl }}">Centre d'aide</a>
+              <a href="{{ site.baseurl }}/">Centre d'aide</a>
             </li>
             <li class="breadcrumb-item">
-              <a href="../{{ page.category }}">{{ page_category.name }}</a>
+              <a href="{{ site.baseurl }}{{ index_page.url }}">{{ index_page.title }}</a>
             </li>
             <li class="breadcrumb-item">
               <a href="#">{{ page.title }}</a>

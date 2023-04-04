@@ -23,7 +23,6 @@ description: Site d'informations et de documentation - Compagnie Secouriste Sain
 theme_color: a80000 # Accent colors on some browsers and embeds # Do not include the # of the HEX color code
 baseurl: /infos # the subpath of your site, e.g. /support
 url: https://cssb-dev.github.io # the base hostname AND PROTOCOL for your site, e.g. http://example.com
-permalink: /:categories/:title
 
 content_type: Documentation #Define whether this is a knowledge base, help center, or something else
 use_authors: true #Set this to false to disable showing post authors
@@ -39,7 +38,7 @@ meta_image: cssb-meta.png
 twitter_username:
 facebook_page:
 github_username: cssb-dev
-email: remi [_at_] cssb.fr
+email: remi@cssb.fr
 linkedin_page:
 instagram_username: compagnie_sainte_barbe
 
