@@ -6,3 +6,5 @@ vendor
 Odin.ai
 *.DS_Store
 *.vscode
+Gemfile.lock
+.bundle
