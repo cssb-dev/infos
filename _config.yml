@@ -44,18 +44,18 @@ linkedin_page:
 instagram_username: compagnie_sainte_barbe
 
 
-# Navivation
+# Navigation
 nav_item_one: Camp
-nav_item_one_link: https://nano-ck.github.io/camp
+nav_item_one_link: https://nano-ck.github.io/infos/camp
 
 nav_item_two: Administration
-nav_item_two_link: https://nano-ck.github.io/admin
+nav_item_two_link: https://nano-ck.github.io/infos/admin
 
 nav_item_three: Discord #
-nav_item_three_link: https://nano-ck.github.io/discord 
+nav_item_three_link: https://nano-ck.github.io/infos/discord 
 
 nav_button: Retour à l'accueil
-nav_button_link: https://nano-ck.github.io
+nav_button_link: https://nano-ck.github.io/infos
 
 # More Help
 help_one_title: Suggestion
