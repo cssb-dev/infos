@@ -50,8 +50,8 @@ nav_item_one_link: camp
 nav_item_two: Administration
 nav_item_two_link: admin
 
-nav_item_three: Discord #
-nav_item_three_link: discord   
+nav_item_three: #
+nav_item_three_link:    
 
 nav_button: Retour à l'accueil
 nav_button_link: 
