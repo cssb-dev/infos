@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Checklist Dossier Camp : List Vaccins acceptés"
+title: "Checklist Dossier Camp : Vaccins"
 author: sdsi
 short-description: Checklist -- Vaccins
 ---
@@ -9,13 +9,13 @@ short-description: Checklist -- Vaccins
 
 :arrow_left: [Retour à la Checklist](../checklist.md)
 
-## Exemples de scan de carnet de vaccination acceptés
+## Exemples de scan acceptés
 
 <img src="../../../assets/admin/vaccinOK-1.png"  class="imgCenter">
 
 <img src="../../../assets/admin/vaccinOK-2.png"  class="imgCenter">
 
-## Exemples de scan de carnet de vaccination acceptés
+## Exemples de scan **non** acceptés
 
 <img src="../../../assets/admin/vaccinNonOK-1.png"  class="imgCenter">
 
