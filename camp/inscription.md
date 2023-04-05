@@ -2,7 +2,7 @@
 layout: post
 title: "Inscription au camp d'été"
 author: sdsi
-short-description: Inscrire votre enfant au camp d'été
+rank: 2
 ---
 
 -----

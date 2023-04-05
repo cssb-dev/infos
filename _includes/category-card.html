@@ -1,7 +1,7 @@
 {% assign category_page = site.pages | where: "url", include.page_name | first %}
 
 <div class="column col-4 col-md-6 col-sm-12">
-    <a href="{{ site.baseurl }}{{ category_page.url }}">
+    <a href="{{ category_page.url }}">
       <div class="card card-link">
         <div class="card-body text-center my-4">
           <h5 class="text-bold"><i class="uil {{ category_page.icon }}"></i>{{ category_page.title }}</h5>

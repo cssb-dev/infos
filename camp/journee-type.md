@@ -2,7 +2,7 @@
 layout: post
 title: "Journée type"
 author: sdsi
-short-description: Activités quotidiennes
+rank: 3
 ---
 
 -----
