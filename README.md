@@ -32,3 +32,32 @@ The `--livereload` option allows to update the website rendering every time you 
 
 ### Icons
 Icons are from [Iconscout](https://iconscout.com/unicons/explore/line)
+
+### Adding a category
+To add a category or a subcategory, you need to add a folder in the directory of your choice. The name of the folder will be the name displayed in the URL. In this folder, you need to add a file named `index.html` with the following content :
+
+```markdown
+---
+layout: category
+title: CATEGORY_NAME
+description: General description of the category
+icon: Ex: uil-cog (see https://iconscout.com/unicons/explore/line)
+---
+
+{% include category-display.html %}
+```
+
+### Adding a page
+
+To add a page, you need to add a file in the directory of your choice. The name of the file will be the name displayed in the URL. In this file, you need to add the following content :
+
+```markdown
+---
+layout: post
+title: "PAGE_NAME"
+rank: Ex: 4 (the lower the number, the higher the page will be displayed in the menu)
+---
+-----
+
+# Contenu de la page
+```
