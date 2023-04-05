@@ -1,22 +1,38 @@
 <!-- Page is the actual page -->
 <!-- P is the page to test -->
 
-{% for p in site.pages %}
+<!-- Creating the lists in which we will add the pages -->
+{% assign page_card_array = "" | split: "," %}
+{% assign category_card_array = "" | split: "," %}
 
-  {% if page != p %}
+{% for p in site.pages %}
+  {% if page != p %} <!-- If ever it's not the actual page -->
     {% assign checkArray = p.dir | split:page.dir %}
-    
     {% if page.dir == p.dir %} <!-- If ever it's a page that is in the same directory and isn't the actual page -->
-      {% include page-card.html page=p %}
-    
+      {% assign page_card_array = page_card_array | push: p %}
     {% elsif checkArray[0] == blank %} <!-- If ever it's a page that is in a subdirectory and isn't the actual page -->
-    
       {% assign category_page = site.pages | where: "url", p.dir | first %}
       {% if category_page.title == p.title %} <!-- If ever it's a category page-->
-        {% include category-card.html page_name=p.dir%}
+        {% assign category_card_array = category_card_array | push: p %}
       {% endif %}
-
     {% endif %}
-
   {% endif %}
+{% endfor %}
+
+
+<!-- Sorting categories and pages by their rank attribute before displaying them -->
+{% assign sorted_page_card_array = page_card_array | sort: 'rank' %}
+{% assign sorted_category_card_array = category_card_array | sort: 'rank' %}
+
+
+<!-- Now you can loop through the arrays and display the content using the respective templates -->
+
+<!-- Displaying categories first -->
+{% for page in sorted_category_card_array %}
+  {% include category-card.html page_name=page.dir %}
+{% endfor %}
+
+<!-- And then displaying articles -->
+{% for page in sorted_page_card_array %}
+  {% include page-card.html page=page %}
 {% endfor %}

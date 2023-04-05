@@ -3,6 +3,7 @@ layout: post
 title: "Checklist pour la validation d'un dossier de camp"
 author: sdsi
 short-description: Checklist Dossier Camp
+rank: 1
 ---
 
 -----
