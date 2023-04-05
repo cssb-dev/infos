@@ -18,10 +18,10 @@ layout: default
         <div class="column col-12">
           <ul class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="{{ site.baseurl }}/">Centre d'aide</a>
+              <a href="{{site.url }}{{ site.baseurl }}">Centre d'aide</a>
             </li>
             <li class="breadcrumb-item">
-              <a href="{{ site.baseurl }}{{ index_page.url }}">{{ index_page.title }}</a>
+              <a href="{{site.url }}{{ site.baseurl }}{{ index_page.url }}">{{ index_page.title }}</a>
             </li>
             <li class="breadcrumb-item">
               <a href="#">{{ page.title }}</a>
@@ -37,7 +37,7 @@ layout: default
                 {% assign post_author = site.data.authors[page.author] %}
                 <div class="flex-vertical-center mb-4">
                   <figure class="avatar d-inline-block" style="align-items: center;">
-                    <img  src="{{ site.baseurl }}/assets/logo-cssb.webp" alt="CSSB Icon">
+                    <img  src="{{site.url }}{{ site.baseurl }}/assets/logo-cssb.webp" alt="CSSB Icon">
                   </figure>
                   <div class="ml-2">
                     <p class="text-dark text-small mb-0"><span class="text-primary">C</span>ompagnie <span class="text-primary">S</span>ecouriste <span class="text-primary">S</span>ainte <span class="text-primary">B</span>arbe</p>
