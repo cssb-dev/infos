@@ -2,11 +2,9 @@
 layout: post
 title: "Documents utiles"
 author: sdsi
-rank: 1
+rank: 2
 ---
 
------
+----
 
-# Documents utiles pour le camp d'été
-
-### [<i class="uil uil-download-alt"></i> Règlement intérieur]({{site.url }}{{ site.baseurl }}/assets/camp/Reglement interieur CSSB.pdf)
+[<i class="uil uil-download-alt"></i> Règlement intérieur](../assets/camp/Reglement_interieur_CSSB.pdf)

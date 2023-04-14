@@ -1,22 +1,17 @@
 ---
 layout: post
-title: "Liste du matériel - Préparer son camp"
+title: "Liste d'affaires à prévoir"
 author: sdsi
-rank: 2
+rank: 1
 ---
 
------
-# Préparer son camp
+----
 
-## Liste du matériel
+**:scroll: Note :** _Cette page est uniquement une page de recommandations de matériel. Aucun matériel est obligatoire et il est recommandé que chacun adapte son matériel en fonction de lui-même et de son utilisation_
 
-**_Attention :_** _Cette page est uniquement une page de recommandations de matériel. Aucun matériel est obligatoire et il est recommandé que chacun adapte son matériel en fonction de lui-même et de son utilisation_
+> :mega: Les excentricités vestimentaires ne sont pas acceptés, et les **cheveux courts** sont obligatoires pour raison d’hygiène. Il est préférable de les couper avant le camp, ils seront coupés sur place si jugés trop longs
 
-<i class="uil uil-exclamation-triangle"></i> Nous n’acceptons pas d’excentricités vestimentaires.
-
-<i class="uil uil-exclamation-triangle"></i> Cheveux courts obligatoires pour raison d’hygiène. Il est préférable de les couper avant le camp, ils seront coupés sur place si jugés trop longs.
-
-### Matériel de base CSSB
+## Affaires de base CSSB
 
 - Tenue F1
     - Rangers, pantalon (ceinture noire ou bleue marine), polo, veste
@@ -31,7 +26,7 @@ rank: 2
 
 
 
-### Matériel de base
+## Affaires personnelles
 
 - <i class="uil uil-exclamation-triangle"></i> Gourde
 - <i class="uil uil-exclamation-triangle"></i> Lampe de poche (les lampes frontales sont très pratiques)
