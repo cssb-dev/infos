@@ -8,7 +8,7 @@ rank: 1
 
 -----
 
-## Commun à tout le monde
+## Informations à vérifier pour tout le monde
 
 1. Vérifier la photo d’identité : _uniquement visage ? est-elle récente ?_
 2. Si un groupe spécial est indiqué, **notifier** Louis Calais pour (directeur.camp@cssb.fr) pour validation.
@@ -18,14 +18,14 @@ rank: 1
     - BOOSTRIXTETRA
     - INFANRIXTETRA
 
-
-## Spécifique dossier chefs
-
-1. Vérifier la concordance nom-prénom du chef avec celui indiqué sur le Casier Judiciare
-2. Si BAFA, vérifier que le document donné est l'attestation ou le diplôme (voir [exemples de documents ...](./checklist/bafa.md)).
-
-
-## Spécifique dossier jeunes
+    
+## Informations spécifiques pour les jeunes
 
 1. Vérifier qu'il est bien dans votre compagnie
 2. Si 4ème Cie, vérifier que le certificat médical fourni est bien le bon
+
+
+## Informations spécifiques pour les chefs
+
+1. Vérifier la concordance nom-prénom du chef avec celui indiqué sur le Casier Judiciare
+2. Si BAFA, vérifier que le document donné est l'attestation ou le diplôme (voir [exemples de documents ...](./checklist/bafa.md)).
