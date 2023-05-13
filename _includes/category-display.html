@@ -27,12 +27,13 @@
 
 <!-- Now you can loop through the arrays and display the content using the respective templates -->
 
-<!-- Displaying categories first -->
+<!-- Add main pages first -->
+{% for page in sorted_page_card_array %}
+  {% include page-card.html page=page %}
+{% endfor %}
+
+<!-- And display eventual additional categories -->
 {% for page in sorted_category_card_array %}
   {% include category-card.html page_name=page.dir %}
 {% endfor %}
 
-<!-- And then displaying articles -->
-{% for page in sorted_page_card_array %}
-  {% include page-card.html page=page %}
-{% endfor %}
