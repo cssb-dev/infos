@@ -1,0 +1,14 @@
+<li class="breadcrumb-item">
+    <a href="{{site.url }}{{ site.baseurl }}">Centre d'aide</a>
+</li>
+{% assign urls = page.url | split: '/' %}
+{% assign nParents = urls.size | minus: 1 %}
+{% assign path = "" %}
+{% for i in (1..nParents) %}
+    {% assign path = path | append: "/" | append: urls[i] %}
+
+    {% assign indexTitle = urls[i] | split : ".html" %}
+    <li class="breadcrumb-item">
+    <a href="{{site.url }}{{ site.baseurl }}{{ path }}">{{ indexTitle[0] | capitalize }}</a>
+    </li>
+{% endfor %}

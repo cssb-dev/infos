@@ -10,12 +10,7 @@ layout: default
     <div class="columns negative-m-xl">
       <div class="column col-12">
         <ul class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="{{ site.url }}{{ site.baseurl }}">Centre d'aide</a>
-          </li>
-          <li class="breadcrumb-item">
-            <a href="#">{{ page.title }}</a>
-          </li>
+          {% include top-index.html %}
         </ul>
         <h2 class="text-light text-bold">{{ page.title }}</h2>
         <p class="text-light mb-2">{{ page.description }}</p>

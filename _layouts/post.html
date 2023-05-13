@@ -4,12 +4,6 @@ layout: default
 
 {% include header.html %}
 
-{% assign parent_folder = page.url | split: '/' | last | remove: '.html' %}
-{% assign parent_folder_url = page.url | split: parent_folder | first %}
-{% assign index_page = site.pages | where: "url", parent_folder_url | first %}
-
-
-
 <div class="container-full">
     <div class="container grid-xl">
       <div class="mt-12 show-md"></div>
@@ -17,15 +11,7 @@ layout: default
       <div class="columns negative-m-xl">
         <div class="column col-12">
           <ul class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="{{site.url }}{{ site.baseurl }}">Centre d'aide</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a href="{{site.url }}{{ site.baseurl }}{{ index_page.url }}">{{ index_page.title }}</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a href="#">{{ page.title }}</a>
-            </li>
+            {% include top-index.html %}
           </ul>
           <h2 class="text-light text-bold">{{ page.title }}</h2>
           <p class="text-light mb-0">{{ page.short-description }}</p>
@@ -42,21 +28,17 @@ layout: default
                   <div class="ml-2">
                     <p class="text-dark text-small mb-0"><span class="text-primary">
                       Section de Développement et de Soutien Informatique (SDSI)</span></p>
-                    <p class="text-dark text-small text-italic mb-0">{% include reading-time.html %}</p>
+                    <p class="text-dark text-small text-italic mb-0">Mise-à-jour le {{ page.last_modified_at | date: '%d %B %Y'  }}, {% include reading-time.html %}</p>
                   </div>
                 </div>
                 {% else %}
                 <div class="ml-2">
-                    <p class="m-0 text-small">Last updated:</p>
-                    <p class="text-dark text-small text-italic mb-0">{{ page.last_modified_at | date: '%B %d, %Y'  }} - {% include reading-time.html %}</p>
-                  </div>
+                  <p class="m-0 text-small">Last updated:</p>
+                  <p class="text-dark text-small text-italic mb-0">{{ page.last_modified_at | date: '%B %d, %Y'  }} - {% include reading-time.html %}</p>
+                </div>
                 {% endif %}
 
               {{ content }}
-
-              
-            
-
 
             </div>
           </div>

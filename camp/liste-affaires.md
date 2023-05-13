@@ -30,7 +30,7 @@ rank: 1
 
 - <i class="uil uil-exclamation-triangle"></i> Gourde
 - <i class="uil uil-exclamation-triangle"></i> Lampe de poche (les lampes frontales sont très pratiques)
-- Sac de couchage, Tapis de sol (Bien qu'il y ai des couchages en dur, il être prêt pour des nuits en extérieur)
+- Sac de couchage, Tapis de sol (Bien qu'il y ai des couchages en dur, il faut être prêt pour d'éventuelles nuits en extérieur)
 - Drap housse 1 personne (**obligatoire**)
 - Affaires de nuit
 - Affaires de toilette
