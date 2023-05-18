@@ -1,3 +1,4 @@
+{% assign words = content | number_of_words %}
 <div class="column col-12">
     <a href="{{ include.page.url }}">
       <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
@@ -6,6 +7,11 @@
             <div class="column col col-sm-12">
               <h5 class="text-semibold m-0">{{ include.page.title }}</h5>
               <p class="m-0 text-dark">{{ include.page.excerpt }}</p>
+              <span class="m-0 text-dark">{% if words < 300 %}
+                moins d'une minute de lecture
+              {% else %}
+                  {{ words | divided_by:150 }} minutes de lecture
+              {% endif %}</span>
             </div>
           </div>
         </div>
