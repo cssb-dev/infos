@@ -75,7 +75,7 @@ Les rôles permettent de définir les droits des membres sur le serveur, ainsi q
 | `Resp. Info. National` | Référent Moyens Internet |
 | `Service Informatique` | SDSI - Donné à tout membre de la SDSI, donne accès aux salons SDSI |
 | `Resp. Log. National` | Référent Logistique National |
-| `Service Logistique` | SERLOG - Donné à tout membre du SerLog, donné accès aux salons SerLog |
+| `Service Logistique` | SERLOG - Donné à tout membre du SerLog, donne accès aux salons SerLog |
 | | |
 | `1ère - France` | Est ou a été à la 1ère compagnie |
 | `2ème - La Radieuse` | Est ou a été à la 2ème compagnie |
