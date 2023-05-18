@@ -3,6 +3,7 @@ layout: post
 title: "Documents Utiles"
 author: sdsi
 rank: 2
+summary: Réglement Intérieur, Projet Pédagogique, ...
 ---
 
 ----

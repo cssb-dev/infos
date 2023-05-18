@@ -4,6 +4,7 @@ title: "Connection à la plateforme d'inscription au camp"
 author: sdsi
 short-description: Connection Inscription Camp
 rank: 0
+summary: Première étape à faire pour pouvoir vous connecter à l'espace d'administration du site d'inscription
 ---
 
 -----

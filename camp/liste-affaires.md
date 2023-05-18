@@ -3,13 +3,14 @@ layout: post
 title: "Liste d'Affaires à Prévoir"
 author: sdsi
 rank: 1
+summary: "Quelques informations utiles à lire avant de préparer sa valise" 
 ---
 
 ----
 
 **:scroll: Note :** _Cette page liste des recommandations : aucune affaire n'est strictement obligatoire (sauf indication contraire) et chaque jeune peut prévoir des affaires en fonction de lui-même et de son utilisation._
 
-> :mega: Les excentricités vestimentaires ne sont pas acceptés, et les **cheveux courts** sont obligatoires pour raison d’hygiène. Il est préférable de les couper avant le camp, ils seront coupés sur place si jugés trop longs
+> :mega: Les excentricités vestimentaires ne sont pas acceptés, et les **cheveux courts** sont obligatoires pour raison d’hygiène. Il est préférable de les couper avant le camp, ils seront coupés sur place si jugés trop longs. N'hésitez pas à consulter le [projet pédagogique](../assets/camp/Projet_pedagogique.pdf) pour plus de détails ...
 
 ## Affaires de base CSSB
 

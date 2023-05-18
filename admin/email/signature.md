@@ -2,8 +2,9 @@
 layout: post
 title: "Signature officielle pour l'envoi d'email"
 author: sdsi
-short-description: Comment personaliser vos email avec une signature officiel CSSB
+short-description: 
 rank: 1
+summary: Comment personaliser vos email avec une signature officielle CSSB
 ---
 
 ----

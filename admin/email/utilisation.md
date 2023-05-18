@@ -4,6 +4,7 @@ title: "Utilisation d'un compte email @cssb.fr"
 author: sdsi
 short-description: Informations de départ lorsque vous recevez les accès à un compte email [...]@cssb.fr pour des tâches administratives ou d'encadrement.
 rank: 0
+summary: À consulter pour la première prise en main
 ---
 
 ----

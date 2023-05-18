@@ -3,11 +3,10 @@ layout: post
 title: "Mail de préparation"
 author: sdsi
 rank: 0
+summary: Mail envoyé quelques mois avant le camp avant le lancement des inscriptions
 ---
 
 ----
-
-> :scroll: _Mail envoyé quelques mois avant le camp avant le lancement des inscriptions._
 
 Bonjour à tous,
 
@@ -34,3 +33,8 @@ En vous souhaitant bonne réception et une bonne semaine pascale,
 Cordialement
 
 _L'équipe de Direction du Camp_
+
+PS : Vous pouvez d'ores et déjà consulter les documents importants du camp :
+
+- [<i class="uil uil-download-alt"></i> Règlement Intérieur](../assets/camp/Reglement_interieur_CSSB.pdf)
+- [<i class="uil uil-download-alt"></i> Projet Pédagogique](../assets/camp/Projet_pedagogique.pdf)

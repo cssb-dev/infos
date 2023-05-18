@@ -2,6 +2,7 @@
 layout: post
 title: "Discussion Discord"
 rank: 4
+summary: Comment accéder au forum de discussions et requêtes interne à la CSSB
 ---
 -----
 
