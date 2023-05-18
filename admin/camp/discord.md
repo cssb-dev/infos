@@ -24,6 +24,8 @@ Le Discord de la CSSB est un lieu de discussion et d'échange entre les membres 
 2. Remplir le formulaire d'inscription
 3. Valider l'inscription en cliquant sur le lien reçu par mail
 
+###### **<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour faire ses premiers pas](https://support.discord.com/hc/fr/articles/360033931551-Premiers-Pas) ou contactez remi@cssb.fr**
+
 ## Rejoindre le serveur
 
 1. Cliquer sur le lien d'invitation au serveur Discord. Si vous ne l'avez pas, vous pouvez le demander à **comm [at] cssb.fr** ou à **remi [at] cssb.fr**.
@@ -32,6 +34,8 @@ Le Discord de la CSSB est un lieu de discussion et d'échange entre les membres 
 <img src="../../assets/admin/camp/discord/arrivee.png" class="center width-90">
 
 4. Vous pouvez désormais envoyer un message de présentation dans ce même salon de discussion, pour qu'un administrateur vous accorde l'accès aux autres salons de discussion.
+
+###### **<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord](https://support.discord.com/hc/fr/articles/360034842871-Comment-rejoindre-un-serveur-) ou contactez remi@cssb.fr**
 
 # Utilisation du serveur
 
@@ -44,6 +48,8 @@ Les salons sont organisés dans différentes catégories: `Salons généraux`, `
 Les salons dont le nom est précédé d'un `#` sont des salons de discussion textuels, vous pouvez y écrire des messages. Les salons dont le nom est précédé d'un `🔊` sont des salons de discussion vocaux, vous pouvez y rejoindre un appel vocal. Pour rejoindre un salon, il suffit de cliquer dessus. 
 
 Les salons `#requete-comm` et `#requete-info` sont des salons de requêtes, vous pouvez y demander de l'aide ou poser des questions. Les membres du service concerné seront notifiés de votre message et pourront vous répondre.
+
+###### **<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour envoyer des messages](https://support.discord.com/hc/fr/articles/360034632292-Envoyer-des-messages) ou contactez remi@cssb.fr**
 
 ### Organisation d'un salon de discussion
 
