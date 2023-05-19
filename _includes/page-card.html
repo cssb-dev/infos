@@ -8,12 +8,8 @@
               <h5 class="text-semibold m-0">{{ include.page.title }}</h5>
               <p class="m-0 text-dark">{{ include.page.excerpt }}</p>
               <p class="text-dark text-italic mb-0">
-              {{ include.page.summary }} - 
-              {% if words < 300 %}
-                moins d'une minute de lecture
-              {% else %}
-                  {{ words | divided_by:150 }} minutes de lecture
-              {% endif %}</p>
+              {{ include.page.summary }}
+              </p>
             </div>
           </div>
         </div>
