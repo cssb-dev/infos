@@ -6,8 +6,6 @@ rank: 0
 summary: Mail envoyé quelques mois avant le camp avant le lancement des inscriptions
 ---
 
-----
-
 Bonjour à tous,
 
 Le camp d’été approche et les préparatifs sont en cours. Afin de faciliter le travail de chacun, merci de préparer dès maintenant les documents suivants votre rôle. 

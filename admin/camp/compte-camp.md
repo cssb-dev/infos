@@ -7,7 +7,6 @@ rank: 0
 summary: Première étape à faire pour pouvoir vous connecter à l'espace d'administration du site d'inscription
 ---
 
------
 ## Première connection
 Rendez vous sur la [plateforme d'inscription au camp](https://inscriptions-camp.cssb.fr/), et cliquez sur le bouton "Espace administration"
 

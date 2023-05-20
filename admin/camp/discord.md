@@ -4,41 +4,34 @@ title: "Discussion Discord"
 rank: 4
 summary: Comment accéder au forum de discussions et requêtes interne à la CSSB
 ---
------
 
-# Table des matières
+:scroll: _Le serveur Discord de la CSSB est un lieu de discussion et d'échange entre les membres de l'association. Il est ouvert à tous les membres de l'association, pour faciliter la communication sur des sujets et requêtes diverses (question ou besoin d'aide, problème à signaler, demande particulière, ...)._
 
-- [Introduction](#introduction)
-- [Rejoindre le serveur](#rejoindre-le-serveur)
+- [Rejoindre le serveur de discussion](#rejoindre-le-serveur-de-discussion)
 - [Utilisation du serveur](#utilisation-du-serveur)
 - [Rôles](#rôles)
 
-# Introduction
+## Rejoindre le serveur de discussion
 
-Le Discord de la CSSB est un lieu de discussion et d'échange entre les membres de l'association. Il est ouvert à tous les membres de l'association, ainsi qu'aux personnes extérieures à l'association qui souhaitent nous rejoindre.
-
-# Rejoindre le serveur
-
-## Créer un compte Discord
+**Étape 1 :** Créer un compte Discord
 
 1. Cliquer sur le lien suivant : [https://discord.com/register](https://discord.com/register)
 2. Remplir le formulaire d'inscription
 3. Valider l'inscription en cliquant sur le lien reçu par mail
 
-###### **<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour faire ses premiers pas](https://support.discord.com/hc/fr/articles/360033931551-Premiers-Pas) ou contactez remi@cssb.fr**
+**<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour faire ses premiers pas](https://support.discord.com/hc/fr/articles/360033931551-Premiers-Pas) ou contactez la SDSI à via remi@cssb.fr**
 
-## Rejoindre le serveur
+**Étape 2 :** Rejoindre le serveur
 
-1. Cliquer sur le lien d'invitation au serveur Discord. Si vous ne l'avez pas, vous pouvez le demander à **comm [at] cssb.fr** ou à **remi [at] cssb.fr**.
+1. Cliquer sur le lien d'invitation au serveur Discord. Si vous ne l'avez pas, vous pouvez le demander à **comm@cssb.fr** ou à **remi@cssb.fr**.
 2. Si vous êtes déjà connecté à Discord, vous serez directement redirigé vers le serveur. Sinon, vous devrez vous connecter à votre compte Discord.
-3. Vous êtes maintenant sur le serveur Discord de la CSSB, vous devriez voir la page de bienvenue suivant :
-<img src="../../assets/admin/camp/discord/arrivee.png" class="center width-90">
-
+3. Vous êtes maintenant sur le serveur Discord de la CSSB, vous devriez voir la page de bienvenue suivant :<br><br>
+<img src="../../assets/admin/camp/discord/arrivee.png" class="center width-90"><br>
 4. Vous pouvez désormais envoyer un message de présentation dans ce même salon de discussion, pour qu'un administrateur vous accorde l'accès aux autres salons de discussion.
 
 ###### **<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord](https://support.discord.com/hc/fr/articles/360034842871-Comment-rejoindre-un-serveur-) ou contactez remi@cssb.fr**
 
-# Utilisation du serveur
+## Utilisation du serveur
 
 Les différents salons de discussion et catégories sont affichés sur la gauche de l'écran. Vous pouvez cliquer sur un salon pour y accéder.
 Par défaut, vous avez accès aux salons suivants :
@@ -50,7 +43,7 @@ Les salons dont le nom est précédé d'un `#` sont des salons de discussion tex
 
 Les salons `#requete-comm` et `#requete-info` sont des salons de requêtes, vous pouvez y demander de l'aide ou poser des questions. Les membres du service concerné seront notifiés de votre message et pourront vous répondre.
 
-###### **<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour envoyer des messages](https://support.discord.com/hc/fr/articles/360034632292-Envoyer-des-messages) ou contactez remi@cssb.fr**
+**<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour envoyer des messages](https://support.discord.com/hc/fr/articles/360034632292-Envoyer-des-messages) ou contactez remi@cssb.fr**
 
 ### Organisation d'un salon de discussion
 
@@ -61,7 +54,7 @@ En haut à droite, avec une icone de punaise, vous pouvez voir les messages épi
 Au milieu, vous pouvez voir les messages du salon, avec le nom de l'auteur, la date et l'heure d'envoi, ainsi que le contenu du message.
 En bas, vous pouvez voir la zone de saisie de texte, pour envoyer un message.
 
-# Rôles
+## Rôles
 
 Les rôles permettent de définir les droits des membres sur le serveur, ainsi que leur appartenance à un groupe, service, ou compagnie.
 

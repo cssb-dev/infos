@@ -7,8 +7,6 @@ rank: 0
 summary: À consulter pour la première prise en main
 ---
 
-----
-
 1. [Première connexion](#première-connexion)
 2. [Changement du mot de passe](#changement-du-mot-de-passe)
 3. [Utilisation du webmail - RoundCube](#utilisation-du-webmail---roundcube)

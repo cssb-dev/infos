@@ -7,8 +7,6 @@ rank: 1
 summary: Liste des informations à vérifier avant de valider un dossier d'inscription
 ---
 
------
-
 ## Informations à vérifier pour tout le monde
 
 1. Vérifier la photo d’identité : _uniquement visage ? est-elle récente ?_

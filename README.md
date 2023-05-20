@@ -56,8 +56,19 @@ To add a page, you need to add a file in the directory of your choice. The name 
 layout: post
 title: "PAGE_NAME"
 rank: Ex: 4 (the lower the number, the higher the page will be displayed in the menu)
+summary: "Résumé en une phrase courte du contenu de la page" 
 ---
------
 
-# Contenu de la page
+:scroll: _Description rapide des informations présentes dans la page (facultative)_
+
+- [Première Section](#première-section)
+- [Deuxième Section](#deuxième-section)
+
+## Première Section
+
+Contenu ...
+
+## Deuxième Section
+
+Contenu
 ```

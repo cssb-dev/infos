@@ -6,8 +6,6 @@ short-description: Checklist -- Vaccins
 rank: 1
 ---
 
------
-
 :arrow_left: [Retour à la Checklist](../checklist.md)
 
 ## Exemples de scan acceptés

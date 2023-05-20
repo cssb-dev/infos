@@ -6,8 +6,6 @@ short-description: Checklist -- Vaccins
 rank: 2
 ---
 
------
-
 :arrow_left: [Retour à la Checklist](../checklist.md)
 
 ## Exemples de document BAFA acceptés

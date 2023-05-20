@@ -7,8 +7,6 @@ rank: 1
 summary: Comment personaliser vos email avec une signature officielle CSSB
 ---
 
-----
-
 1. [Format pour les membres de compagnies](#format-pour-les-membres-de-compagnies)
 2. [Format pour les membres du bureau national ou CSAO](#format-pour-les-membres-du-bureau-national-ou-csao)
 3. [Utiliser la signature avec RoundCube ou un client mail](#utiliser-la-signature-avec-roundcube-ou-un-client-mail)
