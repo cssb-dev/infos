@@ -10,6 +10,7 @@ html {
   font-size: $html-font-size;
   line-height: $html-line-height;
   -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
 }
 
 body {
