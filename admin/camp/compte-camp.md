@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Connection à la plateforme d'inscription au camp"
+title: "Première connection à l'espace d'administration"
 author: sdsi
 short-description: Connection Inscription Camp
 rank: 0
