@@ -47,14 +47,14 @@ Enfin, cliquer sur la ligne de l'un des compagnons permet d'accéder à une page
 
 Au cours du processus, chaque inscription aura un statuts, qui est sensé évoluer dans cet ordre
 
-1. **En attente de validation**  : une fois qu'un parent (ou un chef) a entièrement rempli le formulaire, l'inscription est enregistrée sur le site, et le haut de la page ressemble à ça :
+**Status 1 : En attente de validation**  : une fois qu'un parent (ou un chef) a entièrement rempli le formulaire, l'inscription est enregistrée sur le site, et le haut de la page ressemble à ça :
 
 <img src="./fonctionnement/companion.png" class="center width-100">
 
 Une fois les informations et pièces jointes vérifiées, il est possible de **valider** l'inscription en cliquant sur "Autoriser le paiement".
 Cela va envoyer un mail au parent afin qu'il puisse procéder au paiement, et on passe au statut suivant.
 
-2. **Paiement en attente** : après l'étape précédente, le haut de la page d'un dossier compagnon devient similaire à la précédente, mais avec le statut "Paiement en attente" ainsi qu'une section paiement ressemblant à
+**Status 2 : Paiement en attente** : après l'étape précédente, le haut de la page d'un dossier compagnon devient similaire à la précédente, mais avec le statut "Paiement en attente" ainsi qu'une section paiement ressemblant à
 
 <img src="./fonctionnement/payment-0.png" class="center width-100">
 
@@ -71,7 +71,7 @@ Une fois que c'est fait, la section paiement prendra la forme suivante (par exem
 
 Une fois les chèques bien reçus par la secrétaire générale, celle-ci peut cliquer sur "Confirmer réception du paiement". À ce moment, le status sera changé en "Inscription confirmée" et l'information de la date pour le champ "Reçu le" sera indiquée.
 
-3. **Inscription confirmée** : mission accomplie !
+**Status 3 : Inscription confirmée** : mission accomplie !
 
 ## Modifier les fichiers d'un dossier
 
