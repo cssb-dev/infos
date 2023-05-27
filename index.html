@@ -10,14 +10,28 @@ title: Accueil
             <h6 class="text-secondary">Selectionnez une catégorie</h6>
           </div>
 
+          <!-- List to stores the main categories -->
+          {% assign mainCategories = '' | split: '' %}
+
+          <!-- Loop on all pages -->
           {% for p in site.pages %}
+            <!-- Some processing on the url to detect main categories -->
             {% assign urls = p.url | split: "/" %}
             {% assign pathDepth = urls.size | minus: 1 %}
             {% assign urlLastIdx = p.url.size | minus: 1 %}
             {% assign lastChar = p.url | slice: urlLastIdx %}
+            <!-- Only save pages having an url of the form /[something]/ -->
             {% if pathDepth == 1 and lastChar == "/" %}
-              {% include category-card.html page_name=p.url %}
+              {% assign mainCategories = mainCategories | push: p %}
             {% endif %}
+          {% endfor %}
+
+          <!-- Sort main categories by rank -->
+          {% assign mainCategories = mainCategories | sort: 'rank' %}
+
+          <!-- Display categories starting by lower rank -->
+          {% for p in mainCategories %}
+            {% include category-card.html page_name=p.url %}
           {% endfor %}
 
           {% include more-help.html %}

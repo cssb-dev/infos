@@ -13,12 +13,14 @@ layout: default
           {% include top-index.html %}
         </ul>
         <h1 class="text-light text-bold">{{ page.title }}</h1>
-        <p class="text-light mb-2">{{ page.description }}</p>
+        {% assign inlineDescr = page.description | split: "<br>" | join: ""%}
+        <p class="text-light mb-2">{{ inlineDescr }}</p>
       </div>
+
       {{ content }}
 
-
       {% include more-help.html %}
+      
     </div>
   </div>
 </div>
