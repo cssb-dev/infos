@@ -44,3 +44,31 @@
     </div>
   </div>
 </section>
+<button id='scroll-to-top' onclick="scrollToTop()"><i class="uil uil-angle-double-up"></i></button>
+<script type="text/javascript">
+let scrollToTopBtn = document.getElementById("scroll-to-top")
+let rootElement = document.documentElement
+
+function handleScroll() {
+  // Do something on scroll
+  let scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+  // If user isn't scrolled to the top, display button
+  if ((rootElement.scrollTop / scrollTotal ) > 0.20) {
+    // Show button
+    scrollToTopBtn.style.opacity = 0.8
+  } else {
+    // Hide button
+    scrollToTopBtn.style.opacity = 0
+  }
+}
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+
+document.addEventListener("scroll", handleScroll)
+</script>

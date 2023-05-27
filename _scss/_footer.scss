@@ -35,3 +35,24 @@
     }
   }
 }
+
+#scroll-to-top {
+  // The scroll-to-top button must always be positioned at the bottom of the page on the right
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99;
+  font-size: 40px;
+  border: none;
+  background-color: rgb(226, 226, 226);
+  color: black;
+  border-radius: 100px;
+  opacity: 0;
+  transition: 0.3s ease-in-out all;
+}
+
+#scroll-to-top:hover {
+  cursor: pointer;
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
