@@ -9,10 +9,16 @@ title: Accueil
           <div class="column col-12 text-center">
             <h6 class="text-secondary">Selectionnez une catégorie</h6>
           </div>
-          
-          {% include category-card.html page_name="/camp/" %}
 
-          {% include category-card.html page_name="/admin/" %}
+          {% for p in site.pages %}
+            {% assign urls = p.url | split: "/" %}
+            {% assign pathDepth = urls.size | minus: 1 %}
+            {% assign urlLastIdx = p.url.size | minus: 1 %}
+            {% assign lastChar = p.url | slice: urlLastIdx %}
+            {% if pathDepth == 1 and lastChar == "/" %}
+              {% include category-card.html page_name=p.url %}
+            {% endif %}
+          {% endfor %}
 
           {% include more-help.html %}
         </div>
