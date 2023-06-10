@@ -21,6 +21,8 @@ summary: Liste des informations à vérifier avant de valider un dossier d'inscr
     - BOOSTRIXTETRA
     - INFANRIXTETRA
 
+> :warning: Vérifier qu'il y a bien **le nom et prénom** du jeune (ou chef) sur le scan du carnet de santé !
+
     
 ## Informations spécifiques pour les jeunes
 

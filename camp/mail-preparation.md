@@ -14,7 +14,7 @@ Les inscriptions commenceront  en mai.
 Si votre fils a **moins de 18 ans au camp et pas le diplôme du BAFA**, il vous faut préparer :
 
 1. un certificat médical de non contre-indication à la pratique des multi sports datant de moins d’un an (jusqu’à juillet 2022 accepté pas avant)
-2. la page du carnet de santé montrant la vaccination DTP ou DTPC (Diphtérie, Tétanos, Poliomyélite, Coqueluche) ou attestation de vaccination du médecin
+2. la page du carnet de santé montrant la vaccination DTP ou DTPC (Diphtérie, Tétanos, Poliomyélite, Coqueluche) ou attestation de vaccination du médecin _(une seule page suffit)_
 3. le numéro de sécurité sociale du parent qui a le jeune sur sa carte vitale
 4. si prise de traitements médicamenteux pendant le camp, bien prévoir les ordonnances
 
