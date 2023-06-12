@@ -188,7 +188,7 @@ Suivez notre actualit&eacute; sur : <a
     www.cssb.fr</a>
 </div>
 ```
-> :bulb: Si vous ne désirez pas mettre votre numéro de téléphone, remplace la ligne correspondant par `---` 
+> :bulb: Si vous ne désirez pas mettre votre numéro de téléphone, remplacer la ligne correspondant par `---` 
 
 Exemple de rendu sans numéro de téléphone :
 

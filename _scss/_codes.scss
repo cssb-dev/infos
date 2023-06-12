@@ -3,7 +3,7 @@
  * Code formatting
  */
  $grey-color:       #828282;
- $grey-color-light: lighten($grey-color, 40%);
+ $grey-color-light: lighten($grey-color, 30%);
  pre,
  code {
      font-size: 15px;
@@ -15,16 +15,18 @@
  code {
      padding: 5px 5px 0px 5px;
      margin: 0px 2px;
+     white-space: nowrap;
  }
  
  pre {
-     padding: 8px 12px 4px 12px;
+     padding: 10px;
      overflow-x: auto;
  
      > code {
          border: 0;
          padding-right: 0;
          padding-left: 0;
+         white-space: pre-wrap;
      }
  }
 

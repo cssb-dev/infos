@@ -100,14 +100,23 @@ mark {
   padding: $unit-o $unit-h 0;
 }
 
+.emoji {
+  width: $line-height*0.9;
+  height: $line-height*0.9;
+  transform: translateY(3px);
+}
+
 // Blockquote
 blockquote {
-  border-left: $border-width-lg solid $border-color;
+  border-left: 4px solid #dfdfdf;
   margin-left: 0;
-  padding: $unit-2 $unit-4;
+  margin-right: 0;
+  padding: $unit-2 $unit-2;
+  background: #eeeeee;
+  border-radius: 5px;
 
   p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 4px;
   }
 }
 
