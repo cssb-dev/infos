@@ -21,6 +21,8 @@ summary: Liste des informations à vérifier avant de valider un dossier d'inscr
     - BOOSTRIXTETRA
     - INFANRIXTETRA
 
+> :bell: Seule la preuve de vaccination DTP/DTPC récente est requise, donc **le scan d'une seule page du carnet de santé suffit** (sous réserve qu'elle contient bien la preuve de vaccination :sweat_smile:).
+
 > :warning: Vérifier qu'il y a bien **le nom et prénom** du jeune (ou chef) sur le scan du carnet de santé !
 
     
@@ -33,4 +35,5 @@ summary: Liste des informations à vérifier avant de valider un dossier d'inscr
 ## Informations spécifiques pour les chefs
 
 1. Vérifier la concordance nom-prénom du chef avec celui indiqué sur le Casier Judiciare
-2. Si BAFA, vérifier que le document donné est l'attestation ou le diplôme (voir [exemples de documents ...](./checklist/bafa.md)).
+2. Si BAFA, vérifier que le document donné est bien l'attestation ou le diplôme (voir [exemples de documents ...](./checklist/bafa.md)).
+3. Vérifier avec votre vice-président(e) délégué(e) si le chef est bien aidé financièrement (ou pas) par la compagnie, et que la **case en bas de la section _Informations générales_ correspond bien à la réalité**.
