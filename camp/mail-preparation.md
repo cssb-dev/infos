@@ -20,7 +20,7 @@ Si votre fils a **moins de 18 ans au camp et pas le diplôme du BAFA**, il vous 
 
 Pour **les chefs (animateurs)**, si votre fils a **17 ans et au moins la 1ère partie du BAFA** (formation théorique) et/ou **18 ans avant ou pendant le camp**, il vous faut préparer :
 
-1. la page du carnet de santé montrant la vaccination DTP ou DTPC (Diphtérie, Tétanos, Poliomyélite, Coqueluche) ou attestation de vaccination du médecin
+1. la page du carnet de santé montrant la vaccination DTP ou DTPC (Diphtérie, Tétanos, Poliomyélite, Coqueluche) ou attestation de vaccination du médecin **(une seule page suffit, normalement, avec le nom et le prénom de l'enfant indiqué)**
 2. extrait du casier judiciaire numéro 3 se trouvant sur [le site casier-judiciaire.justice.gouv.fr](https://casier-judiciaire.justice.gouv.fr/mai-web-b3-presentation/pages/creation/orientation.xhtml?cid=2).
 3. le diplôme de secours le plus élevé (PSC1, PSE1, PSE2…)
 4. si BAFA, extraire l'attestation du niveau de formation ou le diplôme via le [site bafa-bafd.jeunes.gouv.fr](https://m.bafa-bafd.jeunes.gouv.fr)
