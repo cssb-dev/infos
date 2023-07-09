@@ -10,6 +10,8 @@ summary: En construction ...
 
 ## Généralités
 
+Salut les chefs
+
 Seuls les chefs de section, les stationnaires et les chefs de pelotons peuvent être en possession d’une radio lors d’une intervention. Eventuellement un chef d’équipe en cas exceptionnel !
 Il est interdit d’utiliser des abréviations lors des messages transmis par radio. En effet, les abréviations peuvent être mal comprises et donc conduire à des erreurs. De plus, si vous parlez à un médecin avec des abréviations, il risque de vous répondre avec d'autres abréviations que vous risquez de ne pas comprendre.
 Sur le camp, le réseau radio est composé de 2 canaux principaux:
