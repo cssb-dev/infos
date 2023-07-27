@@ -13,7 +13,7 @@ summary: En construction ...
 Seuls les chefs de section, les stationnaires et les chefs de pelotons peuvent être en possession d’une radio lors d’une intervention. Eventuellement un chef d’équipe en cas exceptionnel !
 Il est interdit d’utiliser des abréviations lors des messages transmis par radio. En effet, les abréviations peuvent être mal comprises et donc conduire à des erreurs. De plus, si vous parlez à un médecin avec des abréviations, il risque de vous répondre avec d'autres abréviations que vous risquez de ne pas comprendre.
 Sur le camp, le réseau radio est composé de 2 canaux principaux:
-- Le canal principal (golf CSSB) qui est utilisé par les chefs de section et les chefs de peloton pour communiquer avec le stationnaire.
+- Le canal principal (État Major CSSB) qui est utilisé par les chefs de section et les chefs de peloton pour communiquer avec le stationnaire.
 - La régulation médicale qui est utilisé par le chef correspondant pour communiquer avec la régulation médicale.
 
 Les autres canaux peuvent être utilisés dans des cas exceptionnels pour communiquer entre les membres d'une même intervention.
@@ -36,11 +36,11 @@ Il existe 8 sortes de messages (DPDARDDR) :
 <br>
 
 ### 1) Message de départ | En l'air
-Tout engin équipé d’une radio annonce son départ au moyen d'un message en l'air dès qu’il part. Tout message commencera par l’indicatif de la station directrice (golf-CSSB,...), on annonce le nom de l’engin SANS abréviation (ex : Premiers secours évacuation Masséna...) :
+Tout engin équipé d’une radio annonce son départ au moyen d'un message en l'air dès qu’il part. Tout message commencera par l’indicatif de la station directrice (État Major CSSB,...), on annonce le nom de l’engin SANS abréviation (ex : Premiers secours évacuation Masséna...) :
 
     « Station directrice, nom de l’engin parti pour motif et adresse de l’intervention. »
 
-Example: « Golf CSSB, Premiers Secours Evacuation CSSB parti pour feu de cuisine au 12 rue de Clichy à Paris 13° »
+Example: « État Major CSSB, Premiers Secours Evacuation CSSB parti pour feu de cuisine au 12 rue de Clichy à Paris 13° »
 
 <br>
 
@@ -49,9 +49,9 @@ Le message de présentation est obligatoire, il est transmis « en l’air » d�
 
     « Station directrice, nom de l’engin se présente » 
     
-Exemple: « Golf CSSB, Premiers Secours Evacuation CSSB se présente » 
+Exemple: « État Major CSSB, Premiers Secours Evacuation CSSB se présente » 
 
-*Remarque : il est possible de répéter l’adresse de l’intervention dans ce message : « golf.....se présente au 12 rue de Clichy... » . Même si ce message est un message en l’air, on doit attendre une réponse du poste fixe de la forme : « Poste fixe CSSB reçu »*
+*Remarque : il est possible de répéter l’adresse de l’intervention dans ce message : « .....se présente au 12 rue de Clichy... » . Même si ce message est un message en l’air, on doit attendre une réponse du poste fixe de la forme : « Poste fixe CSSB reçu »*
 
 <br>
 
@@ -106,19 +106,19 @@ Le message de départ vers l’hôpital :
 
     « Station directrice, nom de l’engin se dirige vers l’hôpital (nom de l’hôpital) »
 
-Exemple : « Golf CSSB, Véhicule de Secours à Victime CSSB se dirige vers l’hôpital Henri MONDOR »
+Exemple : « État Major CSSB, Véhicule de Secours à Victime CSSB se dirige vers l’hôpital Henri MONDOR »
 
 Le message de présentation à l’hôpital :
 
     « Station directrice, nom de l’engin se présente à l’hôpital (nom de l’hôpital) »
 
-Exemple : « Golf CSSB, Véhicule de Secours à Victime CSSB se présente à l’hôpital Henri MONDOR »
+Exemple : « État Major CSSB, Véhicule de Secours à Victime CSSB se présente à l’hôpital Henri MONDOR »
 
 Le message de sortie de l’hôpital :
 
     « Station directrice, nom de l’engin quitte l’hôpital (nom de l’hôpital) »
 
-Exemple : « Golf CSSB, Véhicule de Secours à Victime CSSB quitte l’hôpital Henri MONDOR »
+Exemple : « État Major CSSB, Véhicule de Secours à Victime CSSB quitte l’hôpital Henri MONDOR »
 
 <br>
 
@@ -126,7 +126,7 @@ Exemple : « Golf CSSB, Véhicule de Secours à Victime CSSB quitte l’hôpital
 C’est un message « en l’air » avec accusé de réception.
 Il est transmis lorsque l’engin a fini une intervention, et est opérationnel et sur son secteur d’intervention.
 « Station directrice, nom de l’engin, disponible »
-Exemple : « Golf CSSB, Véhicule de Secours à Victime CSSB, disponible »
+Exemple : « État Major CSSB, Véhicule de Secours à Victime CSSB, disponible »
 Le chef d’agrès devra attendre l’accusé réception du poste fixe: « Poste fixe CSSB reçu »
 
 <br>
