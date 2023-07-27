@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "protocole inter"
+title: "Déroulement de l'intervention"
 description: "Informations dédiées au déroulement d'une intervention"
 rank: 1
 author: raph
