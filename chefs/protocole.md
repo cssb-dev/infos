@@ -19,40 +19,37 @@ Composée de 7 grandes phases, la MGO permet de garder une vision globale du dé
 <br>
 
        1: Reconnaissance
-<br>
+
 Evaluation de la situation ⇒ analyse, où ? quoi ? quel type de feu ? Ya des victimes ? Etc…  Elle doit être précoce et instantanée. Elle permet de mettre en place un plan d’établissement d’avoir une idée de l’envergure de la situation, idées de manœuvres et définition d’objectifs.
 <br>
-<br>
+
        2: Sauvetages
-<br>
+
 Cette étape est la plus importante. Quelque soit l’évolution de votre intervention, il est primordial de laisser de côté n’importe quelle opération en cours, afin de porter secours, et d’effectuer un sauvetage. Il est cependant INDISPENSABLE de noter que la réalisation d’un sauvetage ne doit en aucun cas mettre en péril la vie du sauveteur, alors il est nécessaire de se sécuriser avant de le réaliser.
-<br>
 <br>
 
       3: Établissements
- <br>
-L’établissement va se réaliser selon les ordres de votre C/a. En effet, après avoir effectué sa reconnaissance, le chef d'agrès à déjà en tête la manière dont il va procéder, ses stratégies et un plan. Et c’est ce plan, qu’il va pouvoir vous faire mettre en œuvre.
 
+L’établissement va se réaliser selon les ordres de votre C/a. En effet, après avoir effectué sa reconnaissance, le chef d'agrès à déjà en tête la manière dont il va procéder, ses stratégies et un plan. Et c’est ce plan, qu’il va pouvoir vous faire mettre en œuvre.
 <br>
-<br>
+
       4: Attaque
-<br>
+
 Au moment de pénétrer au cœur du sinistre, vous allez devoir suivre des protocoles de sécurité, ainsi que des conventions permettant de simplifier votre progression. Au cours de votre attaque, contiguë avec la reconnaissance, elle permettra de fournir un ensemble d’éléments nécessaire au C/a, pour maîtriser au mieux le sinistre, et adapter ses plans d’attaque.
 <br>
-<br>
-      5: Protection
-<br>
-Il s’agit de limiter l’impact du sinistre et de l’action des sapeurs pompiers sur l’environnement direct et indirect. Que ce soit les fumées, les grandes écoulées d’eau etc.. Pour lutter contre cela, des actions telles que la ventilation des locaux, l'assèchement, le déplacement des objets de valeurs sont possibles.
 
+      5: Protection
+
+Il s’agit de limiter l’impact du sinistre et de l’action des sapeurs pompiers sur l’environnement direct et indirect. Que ce soit les fumées, les grandes écoulées d’eau etc.. Pour lutter contre cela, des actions telles que la ventilation des locaux, l'assèchement, le déplacement des objets de valeurs sont possibles.
 <br>
-<br>
+
         6: Déblais
-<br>
+
 Le feu est éteint, les décombres laissent apparaître des fumerons. Il s’agit de déplacer et mettre à nu ces fumerons et les éteindre en vue d’éviter la reprise du sinistre. Bien que la pression de l’intervention tende désormais à diminuer, cette phase de l’opération est toute aussi décisive que les précédentes, notamment en termes de sécurité des intervenants.
 <br>
-<br>
+
       7: Surveillance
-<br>
+
 Il s’agit de maintenir sur les lieux du sinistre, du personnel et du matériel sur une période définie. L’engagement de ce dispositif est adapté au sinistre et son contexte.
 
 ## Mise en pratique :
