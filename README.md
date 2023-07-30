@@ -1,6 +1,6 @@
 # Source files for CSSB official documentation website 
 
-:warning: Nouvelle adresse email du site, `docs.cssb.fr` $\rightarrow$ `infos.cssb.fr`
+:warning: Nouvelle url du site, `docs.cssb.fr` $\rightarrow$ `infos.cssb.fr`
 
 URL : https://infos.cssb.fr/
 
