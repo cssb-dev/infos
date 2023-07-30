@@ -19,7 +19,7 @@ Dans la plupart des clients ou interface mail, il est possible d'ajouter une sig
 	line-height: 17px; margin: 0; padding: 0px 0px 25px 1px; 
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
 	font-size: 12px; color: #03146e; min-width: 530px;" >
-<img src="https://docs.cssb.fr/assets/logo-cssb.webp" 
+<img src="https://infos.cssb.fr/assets/logo-cssb.webp" 
     height="72" 
     style="float: left; padding: 0 10px 0 0;">
 <strong style="color: #03146e; font-size:12px;">
@@ -55,7 +55,7 @@ Cette signature est basé sur le code HTML suivant qu'il faut utiliser :
 	line-height: 17px; margin: 0; padding: 10px 0; 
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
 	font-size: 12px; color: #03146e; min-width: 530px;" >
-<img src="https://docs.cssb.fr/assets/logo-cssb.webp" 
+<img src="https://infos.cssb.fr/assets/logo-cssb.webp" 
     height="72" 
     style="float: left; padding: 0 10px 0 0;">
 <strong style="color: #03146e; font-size:12px;">
@@ -97,7 +97,7 @@ Exemple de rendu sans numéro de téléphone :
 	line-height: 17px; margin: 0; padding: 0px 0px 25px 1px; 
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
 	font-size: 12px; color: #03146e; min-width: 530px;" >
-<img src="https://docs.cssb.fr/assets/logo-cssb.webp" 
+<img src="https://infos.cssb.fr/assets/logo-cssb.webp" 
     height="72" 
     style="float: left; padding: 0 10px 0 0;">
 <strong style="color: #03146e; font-size:12px;">
@@ -131,7 +131,7 @@ Pour les membres ne faisant pas partie d'une compagnie, la signature est simplif
 	line-height: 17px; margin: 0; padding: 0px 0px 25px 1px;; 
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
 	font-size: 12px; color: #03146e; min-width: 530px;" >
-<img src="https://docs.cssb.fr/assets/logo-cssb.webp" 
+<img src="https://infos.cssb.fr/assets/logo-cssb.webp" 
     height="72" 
     style="float: left; padding: 0 10px 0 0;">
 <strong style="color: #03146e; font-size:12px;">
@@ -163,7 +163,7 @@ et voici le code HTML correspondant :
 	line-height: 17px; margin: 0; padding: 10px 0; 
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
 	font-size: 12px; color: #03146e; min-width: 530px;" >
-<img src="https://docs.cssb.fr/assets/logo-cssb.webp" 
+<img src="https://infos.cssb.fr/assets/logo-cssb.webp" 
     height="72" 
     style="float: left; padding: 0 10px 0 0;">
 <strong style="color: #03146e; font-size:12px;">
@@ -196,7 +196,7 @@ Exemple de rendu sans numéro de téléphone :
 	line-height: 17px; margin: 0; padding: 0px 0px 25px 1px;
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
 	font-size: 12px; color: #03146e; min-width: 530px;" >
-<img src="https://docs.cssb.fr/assets/logo-cssb.webp" 
+<img src="https://infos.cssb.fr/assets/logo-cssb.webp" 
     height="72" 
     style="float: left; padding: 0 10px 0 0;">
 <strong style="color: #03146e; font-size:12px;">

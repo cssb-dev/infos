@@ -1,6 +1,6 @@
 # Source files for CSSB official documentation website 
 
-URL : https://docs.cssb.fr/
+URL : https://infos.cssb.fr/
 
 Web content is written in .md files. After committing the changes on the `gaia` branch, Jekyll is executed on them to generate .html files, and the website is automatically updated.
 
