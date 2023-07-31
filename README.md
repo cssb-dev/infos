@@ -6,6 +6,8 @@ URL : https://infos.cssb.fr/
 
 Web content is written in .md files. After committing the changes on the `gaia` branch, Jekyll is executed on them to generate .html files, and the website is automatically updated.
 
+Some tests ...
+
 Website uses [Jekyll](https://jekyllrb.com/) with the [Odin template](https://github.com/TeaGuns/odin) for knowledgebases and support sites. Please see the [official Jekyll docs](https://jekyllrb.com/docs/) for more info on running, building and editing a Jekyll site.
 
 ## Local developments
