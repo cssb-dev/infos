@@ -1,5 +1,5 @@
 <!-- Page is the actual page -->
-<!-- P is the page to test -->
+<!-- p is the page to test -->
 
 <!-- Creating the lists in which we will add the pages -->
 {% assign page_card_array = "" | split: "," %}
@@ -12,7 +12,9 @@
       {% assign page_card_array = page_card_array | push: p %}
     {% elsif checkArray[0] == blank %} <!-- If ever it's a page that is in a subdirectory and isn't the actual page -->
       {% assign category_page = site.pages | where: "url", p.dir | first %}
-      {% if category_page.title == p.title %} <!-- If ever it's a category page-->
+      {% assign current_depth = page.url | split: "/" | size %}
+      {% assign category_depth = category_page.url | split: "/" | size | minus: 1 %}
+      {% if category_page.title == p.title and category_depth == current_depth %} <!-- If ever it's a category page-->
         {% assign category_card_array = category_card_array | push: p %}
       {% endif %}
     {% endif %}
@@ -36,4 +38,3 @@
 {% for page in sorted_category_card_array %}
   {% include category-card.html page_name=page.dir %}
 {% endfor %}
-
