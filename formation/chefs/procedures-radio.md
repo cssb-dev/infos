@@ -2,7 +2,7 @@
 layout: post
 title: "Procédures radio"
 author: sdsi
-rank: 1
+rank: 2
 ---
 
 <i class="uil uil-exclamation-triangle"></i> Cette page indique les procédures radio à suivre lors d'une intervention **fictive** dans le cadre des activités de la Compagnie Secours Sainte-Barbe. Elle ne représente **en aucun cas** des procédures officielles pour une intervention réelle.
