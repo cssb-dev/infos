@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Traumatisme des membres supérieurs
+title: Traumatisme du rachis-cervical
 summary: "Les différents traumatismes, et comment réagir"
-rank: 2
+rank: 3
 ---
 
