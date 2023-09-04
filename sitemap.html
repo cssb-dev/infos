@@ -29,8 +29,8 @@ rank: 0
         <div class="text-center">
             {% for page in sorted_pages %}
             {% if page.title != null %}
-                <a href="{{ page.url | relative_url }}" class="category-link">
-                <h3 class="category-link-title">{{ page.title }}</h3>
+                <a href="{{ page.url | relative_url }}" class="category-link" data-content="{{ page.content | strip_html | escape }}">
+                    <h3 class="category-link-title">{{ page.title }}</h3>
                 </a>
             {% endif %}
             {% endfor %}
@@ -39,18 +39,27 @@ rank: 0
 </div>
 
 <script>
-    const search = document.getElementById('search');
-    const links = document.querySelectorAll('.category-link');
-
-    search.addEventListener('keyup', function(e) {
-        const term = e.target.value.toLowerCase();
-        Array.from(links).forEach(function(link) {
-            const title = link.textContent;
-            if(title.toLowerCase().indexOf(term) != -1) {
-                link.style.display = 'block';
-            } else {
-                link.style.display = 'none';
-            }
-        })
-    })
-</script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const searchInput = document.getElementById("search");
+      const categoryLinks = document.querySelectorAll(".category-link");
+  
+      searchInput.addEventListener("input", function () {
+        const searchQuery = searchInput.value.trim().toLowerCase();
+  
+        categoryLinks.forEach(function (link) {
+          const title = link.querySelector(".category-link-title").textContent.toLowerCase();
+          const content = link.getAttribute("data-content").toLowerCase();
+  
+          const titleMatch = title.includes(searchQuery);
+          const contentMatch = content.includes(searchQuery);
+  
+          if (titleMatch || contentMatch) {
+            link.style.display = "block";
+          } else {
+            link.style.display = "none";
+          }
+        });
+      });
+    });
+  </script>
+  
