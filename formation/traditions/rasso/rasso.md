@@ -14,8 +14,7 @@ Le bon déroulement d'un rassemblement, est permis par la bonne exécution d'une
 <br>
 
 #### ***Pour l'exécution d'un rasso simple en section :***
-<br>
-<br>
+
 $\hspace{40pt}$
 Les Chefs de Section (CS), au garde-àvous, mettent au garde-à-vous leur section:
 
@@ -61,8 +60,7 @@ Avant de rompre, le rassemblement:
 > Pour l'ensemble, garde à vous
 Rompez (salut).
 
-<br>
-<br>
+
 
 #### ***Pour un rassemblement au carré :*** 
 
@@ -107,8 +105,7 @@ Le dernier Compagnon annonce :
 <br>
 
 Les Compagnons s'alignent tous sur l'homme de base en tendant le bras gauche.
-<br>
-<br>
+
 
 $\hspace{40pt}$
  Le chef dirigeant le rassemblement annonce alors :
@@ -131,6 +128,5 @@ Il arrive au pas, se présente devant l'équipe monitrice :
 
 >Aspirant, en raison de votre ancienneté, de l'obtention de *x* diplôme, et de vos capacité, vous êtes promu au grade de compagnon.
 
-<br>
-<br>
+
 A la suite de cela, les compagnons saluent, puis le rassemblement retrouve une organisation habituelle.
