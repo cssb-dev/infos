@@ -53,8 +53,8 @@ nav_item_two_link: admin
 nav_item_three: #
 nav_item_three_link:    
 
-nav_button: Retour à l'accueil
-nav_button_link: 
+nav_button: Faire une recherche
+nav_button_link: search
 
 # More Help
 help_one_title: Suggestion
