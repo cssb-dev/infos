@@ -93,4 +93,4 @@ Pour devenir Commandant de brigades, l'obtention du BAFD est imposée. Ce grade 
 <br>
 <div align="justify">
 
-Seul les Prêtres sont concernés par ce grade.
+Seuls les Prêtres sont concernés par ce grade.

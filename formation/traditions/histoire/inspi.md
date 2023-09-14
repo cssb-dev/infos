@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les inspirations
-summary: "Grands textes, Saints et idées"
+summary: "Grands textes, et idées"
 rank: 2
 ---
 
