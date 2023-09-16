@@ -31,22 +31,18 @@ Frère Marcel Van
 <div align="center">
 <i> Ref / Notre secours est dans le Nom du Seigneur Qui a fait le Ciel et la Terre Notre recours est dans son Sacré-Cœur En son Esprit et en Dieu notre Père. </i>
 
-<br>
-<br>
+
 J’ai cherché des consolateurs Des messagers de Paix, je n’en ai pas trouvé.Je n’avais que ta louange à la bouche Fort de ton secours et de ta protection.
 
-<br>
-<br>
+
 Le malheur peut fondre sur la Terre Nous resterons disponibles à nos frères L’ennemi, la souffrance et la douleur Deviendront les proies de notre ardeur.
 
-<br>
-<br>
+
 Secouristes au cœur des cris de l’homme, Dans les combats de lumière et de braise, compagnons fiers de notre devise : Sauver ou périr, aimer ou mourir.
 </div>
 <br>
 
-<br>
-<div align="justify">
+
 $\hspace{15pt}$
 La vie du compagnon est également marquée par la spiritualité lors de moments d'adoration et de louange, comme lors des Laudes quotidiennes notamment. En voici quelques-unes :
 </div>
