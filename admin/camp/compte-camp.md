@@ -2,7 +2,6 @@
 layout: post
 title: "Première connection à l'espace d'administration"
 author: sdsi
-short-description: Connection Inscription Camp
 rank: 0
 summary: Première étape à faire pour pouvoir vous connecter à l'espace d'administration du site d'inscription
 ---
