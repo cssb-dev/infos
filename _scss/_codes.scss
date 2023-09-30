@@ -2,33 +2,41 @@
 /**
  * Code formatting
  */
- $grey-color:       #828282;
- $grey-color-light: lighten($grey-color, 30%);
- pre,
- code {
-     font-size: 15px;
-     border: 2px solid $grey-color-light;
-     border-radius: 5px;
-     background-color: #eef;
- }
- 
- code {
-     padding: 5px 5px 0px 5px;
-     margin: 0px 2px;
-     white-space: nowrap;
- }
- 
- pre {
-     padding: 10px;
-     overflow-x: auto;
- 
-     > code {
-         border: 0;
-         padding-right: 0;
-         padding-left: 0;
-         white-space: pre-wrap;
-     }
- }
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 30%);
+
+pre,
+code {
+    font-family: Consolas, monaco, monospace;
+    font-size: 15px;
+    border: 2px solid $grey-color-light;
+    border-radius: 5px;
+    background-color: #eef;
+}
+
+code {
+    padding: 2px 3px 2px 3px;
+    margin: 0px 2px;
+    white-space: nowrap;
+}
+
+pre {
+    padding: 10px;
+    overflow-x: auto;
+
+    > code {
+        padding: 0;
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+        white-space: pre-wrap;
+    }
+}
+
+blockquote code {
+    margin: 0;
+    border: 0;
+}
 
 .highlight {
 margin-top: 8px;
@@ -39,7 +47,7 @@ background: #fff;
   background: #eef;
 }
 
-.c     { color: #998; font-style: italic } // Comment
+.c     { color: #998; font-style: italic; font-weight: bold; } // Comment
 .err   { color: #a61717; background-color: #e3d2d2 } // Error
 .k     { font-weight: bold } // Keyword
 .o     { font-weight: bold } // Operator

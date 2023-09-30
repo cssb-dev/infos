@@ -2,7 +2,6 @@
 layout: post
 title: "Checklist pour la validation d'un dossier de camp"
 author: sdsi
-short-description: Checklist Dossier Camp
 rank: 2
 summary: Liste des informations à vérifier avant de valider un dossier d'inscription
 ---

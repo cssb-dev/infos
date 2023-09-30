@@ -3,7 +3,6 @@ layout: post
 title: "Rejoindre le serveur Discord"
 date: 2023-04-02 08:44:38 -0400
 author: sdsi
-short-description: Utilisation de Discord
 ---
 
 -----

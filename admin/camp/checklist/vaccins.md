@@ -2,7 +2,7 @@
 layout: post
 title: "Checklist Dossier Camp : Vaccins"
 author: sdsi
-short-description: Checklist -- Vaccins
+summary: Checklist -- Vaccins
 rank: 1
 ---
 
