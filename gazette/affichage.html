@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Affichage de la gazette"
+rank: 4
+summary: "Affichage de la gazette" 
+---
+
+<object type="application/pdf" width="100%" height="800px" id="visualiser">
+  <p>Impossible d'afficher le PDF. <a href="{{url}}">Téléchargez le fichier.</a></p>
+</object>
+
+<script type="text/javascript">
+  const urlParams = new URLSearchParams(window.location.search);
+  const filename = urlParams.get('file');
+  const url = "{{ page.dir }}" + filename;
+  console.log(url);
+
+  document.getElementById("visualiser").data = url
+
+</script>
