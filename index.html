@@ -31,7 +31,11 @@ title: Accueil
 
           <!-- Display categories starting by lower rank -->
           {% for p in mainCategories %}
-            {% include category-card.html page_name=p.url %}
+            <!-- If hidden is not true, display -->
+            {% if p.hidden != true %}
+              {% include category-card.html page_name=p.url %}
+            {% endif %}
+            
           {% endfor %}
 
           {% include more-help.html %}
