@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Checklist Dossier Camp : BAFA"
-author: sdsi
+author: service-informatique
 summary: Checklist -- Vaccins
 rank: 2
 ---

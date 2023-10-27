@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Président"
-author: sdsi
+author: service-informatique
 rank: 0
 summary: Description du rôle de président de la CSSB 
 icon: uil-clipboard-alt

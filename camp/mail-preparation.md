@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mail de préparation"
-author: sdsi
+author: service-informatique
 rank: 0
 summary: Mail envoyé quelques mois avant le camp avant le lancement des inscriptions
 ---

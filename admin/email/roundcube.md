@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Utiliser le compte mail avec RoundCube"
-author: sdsi
+author: service-informatique
 rank: 2
 summary: Interface graphique de type "webmail", nécessitant juste un navigateur internet
 icon: uil-desktop-cloud-alt

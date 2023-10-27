@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Documents Utiles"
-author: sdsi
+author: service-informatique
 rank: 2
 summary: Réglement Intérieur, Projet Pédagogique, ...
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Informations générales"
-author: sdsi
+author: service-informatique
 rank: 0
 summary: À consulter avant première utilisation
 icon: uil-comment-alt-exclamation

@@ -19,7 +19,7 @@ summary: Comment accéder au forum de discussions et requêtes interne à la CSS
 2. Remplir le formulaire d'inscription
 3. Valider l'inscription en cliquant sur le lien reçu par mail
 
-**<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour faire ses premiers pas](https://support.discord.com/hc/fr/articles/360033931551-Premiers-Pas) ou contactez la SDSI à via remi@cssb.fr**
+**<i class="uil uil-info-circle"></i> Besoin d'aide supplémentaire ? Suivez [le tutoriel de Discord pour faire ses premiers pas](https://support.discord.com/hc/fr/articles/360033931551-Premiers-Pas) ou contactez le Service Informatique via remi@cssb.fr**
 
 **Étape 2 :** Rejoindre le serveur
 
@@ -37,7 +37,7 @@ Les différents salons de discussion et catégories sont affichés sur la gauche
 Par défaut, vous avez accès aux salons suivants :
 <img src="../../assets/admin/camp/discord/salons.png" class="center width-25">
 
-Les salons sont organisés dans différentes catégories: `Salons généraux`, `Service Com'`, ou `Service Info - SDSI`. Vous n'avez pas forcément les mêmes accès à chaque salon, en fonction de votre rôle sur le serveur, certains salons peuvent être cachés, ou vous pouvez ne pas avoir la permission d'y écrire.
+Les salons sont organisés dans différentes catégories: `Salons généraux`, `Service Com'`, ou `Service Info`. Vous n'avez pas forcément les mêmes accès à chaque salon, en fonction de votre rôle sur le serveur, certains salons peuvent être cachés, ou vous pouvez ne pas avoir la permission d'y écrire.
 
 Les salons dont le nom est précédé d'un `#` sont des salons de discussion textuels, vous pouvez y écrire des messages. Les salons dont le nom est précédé d'un `🔊` sont des salons de discussion vocaux, vous pouvez y rejoindre un appel vocal. Pour rejoindre un salon, il suffit de cliquer dessus. 
 
@@ -67,7 +67,7 @@ Les rôles permettent de définir les droits des membres sur le serveur, ainsi q
 | `Resp. Comm. National` | Responsable Communication National |
 | `Service Communication` | SERCOM  - Donné à tout membre du SerCom, donne accès aux salons SerCom |
 | `Resp. Info. National` | Référent Moyens Internet |
-| `Service Informatique` | SDSI - Donné à tout membre de la SDSI, donne accès aux salons SDSI |
+| `Service Informatique` | SI - Donné à tout membre du Service Informatique, donne accès aux salons SI |
 | `Resp. Log. National` | Référent Logistique National |
 | `Service Logistique` | SERLOG - Donné à tout membre du SerLog, donne accès aux salons SerLog |
 | | |
