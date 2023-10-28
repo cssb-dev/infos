@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Signature officielle"
-author: sdsi
+author: service-informatique
 rank: 3
 summary: Comment personaliser vos email avec une signature officielle CSSB
 icon: uil-envelope-bookmark

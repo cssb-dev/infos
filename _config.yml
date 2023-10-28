@@ -44,14 +44,18 @@ instagram_username: compagnie_sainte_barbe
 
 
 # Navigation
-nav_item_one: Camp
-nav_item_one_link: camp
+nav_item_one: News
+nav_item_one_link: gazettes
 
 nav_item_two: Administration
 nav_item_two_link: admin
 
 nav_item_three: #
 nav_item_three_link:    
+
+major_button: Newsletters
+major_button_icon: uil-newspaper
+major_button_link: gazettes
 
 nav_button: Retour à l'accueil
 nav_button_link: 

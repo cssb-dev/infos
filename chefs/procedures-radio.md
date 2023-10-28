@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Procédures radio"
-author: sdsi
+author: service-informatique
 rank: 1
 summary: En construction ...
 ---

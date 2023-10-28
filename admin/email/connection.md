@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Première connection"
-author: sdsi
+author: service-informatique
 rank: 1
 summary: Se connecter au compte mail, changer le mot de passe
 icon: uil-signout

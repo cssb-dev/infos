@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Liste d'Affaires à Prévoir"
-author: sdsi
+author: service-informatique
 rank: 1
 summary: "Quelques informations utiles à lire avant de préparer sa valise" 
 ---

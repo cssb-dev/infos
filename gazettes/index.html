@@ -1,0 +1,35 @@
+---
+layout: category
+title: Archives des gazettes CSSB
+description: 
+icon: uil-newspaper
+rank: 5
+hidden: true
+---
+
+{% assign sorted = site.data.gazettes.canva_projects | sort: 'name' %}
+{% for project in sorted %}
+    <div class="column col-12">
+      <a href="{{ page.dir }}affichage?name={{ project.name }}">
+        <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+          <div class="card-body">
+            <div style="float: left; margin-right: 3px; font-size: 29px;">
+              {% if include.page.icon %}
+                <i class="uil {{ include.page.icon }}"></i>
+              {% else %}
+                <i class="uil uil-newspaper"></i>
+              {% endif %}
+            </div>
+            <div class="columns col-x-align">
+              <div class="column col col-sm-12">
+                <h5 class="text-semibold m-0">{{ project.name }} <span class="text-italic" style="font-size: 0.85em; font-weight: 100;">- {{ project.date }}</span></h5>
+                <p class="text-dark text-italic mb-0">
+                {{ project.excerpt }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+{% endfor %}

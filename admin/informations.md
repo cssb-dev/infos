@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Informations générales"
-author: sdsi
+author: service-informatique
 rank: 0
 summary: À consulter lors de la prise de poste d'un membre administratif
 icon: uil-comment-info-alt
@@ -33,7 +33,7 @@ Afin d'apporter un support spécifique dans différents domaines, il existe à l
 - le **Référent Juridique**
 - le **Référent Anciens**
 - le **Responsable Communication (RESCOM)**, dirigeant le **Service Communication (SERCOM)**
-- le **Référent Moyens Internet (REMI)**, dirigeant la **Section de Développement et de Soutient Informatique (SDSI)** 
+- le **Référent Moyens Internet (REMI)**, dirigeant la **Service Informatique (SI)** 
 - le **Délégué à la Protection des Données (DPO)**
 
 Une description détaillée de chacun de ces postes est donnée dans la [catégorie des fiches de postes](./postes/).
