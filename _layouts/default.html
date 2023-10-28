@@ -4,11 +4,37 @@
   {% include head.html %}
 
   <body>
+
+    <noscript>Veuillez activer le javascript pour que cette page fonctionne correctement.</noscript>
+
     {{ content }}
 
     {% include footer.html %}
 
-    <noscript>Veuillez activer le javascript pour que cette page fonctionne correctement.</noscript>
+    <script>
+    // Copyright @ChatGPT
+    // Function to check if the screen width is below a certain threshold (e.g., 768 pixels)
+    function isSmallScreen() {
+      return window.innerWidth < 768;
+    }
+    
+    // Function to reload the page when scrolling down on a small screen
+    function reloadOnScroll() {
+      if (isSmallScreen()) {
+        // Listen for the scroll event
+        window.addEventListener('scroll', function () {
+          // Check if the user has scrolled to the bottom of the page
+          if (window.scrollY === 0) {
+            // Reload the page
+            location.reload();
+          }
+        });
+      }
+    }
+    
+    // Call the function to set up the scroll event listener
+    reloadOnScroll();
+    </script>
     
   </body>
 </html>
