@@ -13,7 +13,7 @@ layout: default
           <ul class="breadcrumb">
             {% include top-index.html %}
           </ul>
-          <h1 class="text-light text-bold">{{ page.title }}</h1>
+          <h1 id="postTitle" class="text-light text-bold">{{ page.title }}</h1>
         </div>
         <div class="column col-12">
           <div class="card">
@@ -25,7 +25,7 @@ layout: default
                     <img  src="{{site.url }}{{ site.baseurl }}/assets/logo-cssb.webp" alt="CSSB Icon">
                   </figure>
                   <div class="ml-2">
-                    <p class="text-dark text-small mb-0"><span class="text-primary">
+                    <p id="postAuthor" class="text-dark text-small mb-0"><span class="text-primary">
                       Service Informatique - CSSB</span></p>
                     <p class="text-dark text-small text-italic mb-0">Mise-à-jour le {{ page.last_modified_at | date: '%d %B %Y'  }}, {% include reading-time.html %}</p>
                   </div>

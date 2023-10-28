@@ -2,10 +2,7 @@
 layout: post
 title: "Affichage de la gazette"
 rank: 4
-summary: "Affichage de la gazette" 
 ---
-
-<h1 id="title">Chargement...</h1>
 
 <div style="position: relative; width: 90%; height: 0; padding-top: 129.4118%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -14,7 +11,6 @@ summary: "Affichage de la gazette"
   id="visualiser" allowfullscreen="allowfullscreen" allow="fullscreen">
 </iframe>
 </div>
-<i class="center">Gazette créée par le Service Communication</i>
 
 <script type="text/javascript">
     const gazettes = [
@@ -28,9 +24,12 @@ summary: "Affichage de la gazette"
 
     const urlParams = new URLSearchParams(window.location.search);
     const projectName = urlParams.get('name');
-    if(!projectName) window.location.replace("/gazettes");
+    if(!projectName) {
+      window.location.replace("/gazettes");
+    }
     const project = gazettes.find(gazette => gazette.name === projectName);
 
     document.getElementById("visualiser").src = project.link+"?embed"
-    document.getElementById("title").innerText = `Votre gazette : ${project.name}`
+    document.getElementById("postTitle").innerText = `Votre Gazette : ${project.name}`
+    document.getElementById("postAuthor").children[0].innerText = "Service Communication - CSSB"
 </script>
