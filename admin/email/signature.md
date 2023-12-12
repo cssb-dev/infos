@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Signature officielle pour l'envoi d'email"
+title: "Signature officielle"
 author: sdsi
-short-description: 
-rank: 1
+rank: 3
 summary: Comment personaliser vos email avec une signature officielle CSSB
+icon: uil-envelope-bookmark
 ---
 
 1. [Format pour les membres de compagnies](#format-pour-les-membres-de-compagnies)
 2. [Format pour les membres du bureau national ou CSAO](#format-pour-les-membres-du-bureau-national-ou-csao)
-3. [Utiliser la signature avec RoundCube ou un client mail](#utiliser-la-signature-avec-roundcube-ou-un-client-mail)
 
 ## Format pour les membres de compagnies
 
@@ -219,12 +218,3 @@ Suivez notre actualit&eacute; sur : <a
         border-bottom: 1px #333333 dotted;">
     www.cssb.fr</a>
 </div>
-
-## Utiliser la signature avec RoundCube ou un client mail
-
-:hammer_and_wrench: EN CONSTRUCTION :hammer_and_wrench:
-
-- Utiliser la signature dans RoundCube
-- Utiliser la signature dans Thunderbird
-- Utiliser la signature dans Outlook
-- Utiliser la signature avec un smartphone 

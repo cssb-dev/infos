@@ -29,7 +29,7 @@ use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: logo.png
 brand_name: CSSB
-header: Comment puis-je vous aider?
+header: Comment puis-je vous aider ?
 subheader: Infos & Documentation
 
 meta_image: logo-cssb.webp

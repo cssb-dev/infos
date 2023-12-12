@@ -3,6 +3,13 @@
     <a href="{{ include.page.url }}">
       <div class="card card-link my-1" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
         <div class="card-body">
+          <div style="float: left; margin-right: 3px; font-size: 29px;">
+            {% if include.page.icon %}
+              <i class="uil {{ include.page.icon }}"></i>
+            {% else %}
+              <i class="uil uil-info-circle"></i>
+            {% endif %}
+          </div>
           <div class="columns col-x-align">
             <div class="column col col-sm-12">
               <h5 class="text-semibold m-0">{{ include.page.title }}</h5>
