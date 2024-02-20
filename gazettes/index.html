@@ -7,7 +7,7 @@ rank: 5
 hidden: true
 ---
 
-{% assign sorted = site.data.gazettes.canva_projects | sort: 'name' | reverse %}
+{% assign sorted = site.data.gazettes.canva_projects %}
 {% for project in sorted %}
     <div class="column col-12">
       <a href="{{ page.dir }}affichage?name={{ project.name }}">
