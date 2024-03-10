@@ -3,7 +3,7 @@ layout: post
 title: "Informations générales"
 author: service-informatique
 rank: 0
-summary: À consulter avant première utilisation
+summary: À consulter lors de la première prise en main d'une adresse email @cssb.fr
 icon: uil-comment-alt-exclamation
 ---
 
