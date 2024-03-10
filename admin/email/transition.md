@@ -33,7 +33,7 @@ _Afin que cette transition se fasse dans le plus de douceurs possible, voici les
 
 ## Procédure
 
-1. **Création de la nouvelle adresse mail** :fireworks:
+### Étape 1 : Création de la nouvelle adresse mail :fireworks:
 
 `new@cssb.fr` est crée par le ReMI, 
 et un mail pour l'initialisation du mot de passe est envoyé à `old@cssb.fr`. 
@@ -43,7 +43,7 @@ et un compte Google associé à `new@cssb.fr` est créé.
 
 > :mega: Lorsque vous recevez le mail d'initialisation du mot de passe, pensez au plus simple : utiliser le même que celui de l'ancienne adresse mail :wink:
 
-2. **Prise en main** :hammer_and_wrench:
+### Étape 2 : Prise en main :hammer_and_wrench:
 
 Peut après la réception du mail d'initialisation de mot de passe sur `old@cssb.fr`, le ReMi envois un mail pour indique que l'étape 1 est finie, 
 et donne par la même occasion le mot de passe du compte Google associé à `new@cssb.fr`.
@@ -53,7 +53,7 @@ Aussi, il peut mettre en place [sa nouvelle signature](./signature.md) sur `new@
 
 > :bell: Cette étape se fait assez facilement si vous utilisez Thunderbird, Outlook ou équivalent. Si vous ne savez pas trop comment faire, simplement prendre un RdV en visio avec le ReMI pour effectuer la manipulation ... 
 
-3. **Transferts** :incoming_envelope:
+### Étape 3 : Transferts :incoming_envelope:
 
 Une fois `new@cssb.fr` et le compte Google pris en main par leur détenteur, le ReMI effectue les manipulations suivantes :
 
@@ -62,10 +62,18 @@ Une fois `new@cssb.fr` et le compte Google pris en main par leur détenteur, le 
     - documents dont le ReMI est propriétaire => par le ReMI
     - documents dont `old@cssb.fr` est propriétaire => transférer la propriété à `new@cssb.fr`
     - documents dont un autre compte est propriétaire => demander le transfert des droits à la personne détenteur du compte propriétaire
+- envois d'un email à `tous@cssb.fr` pour indiquer le changement
 
 > :warning: Noter quelque-part sur un document de transfert partagé (tableur administratif) l'état du transfert, et les documents encore non transférés
 
-4. **Nettoyage** :coffin:
+**Autre détail important :** vérifier les transferts pour d'éventuels autres services, comme :
+
+- HelloAsso
+- e-Brigade
+- CIC
+- ...
+
+### Étape 4 : Nettoyage :coffin:
 
 Après quelques mois pour l'étape 3, une fois que tout les transferts de droits Google ont été effectué et vérifié,
 alors l'ancienne adresse peut être officiellement supprimée, ainsi que le compte Google associé :partying_face:.
