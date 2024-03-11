@@ -35,9 +35,11 @@ The `--livereload` option allows to update the website rendering every time you 
 # Modifications
 
 ### Icons
+
 Icons are from [Iconscout](https://iconscout.com/unicons/explore/line)
 
 ### Adding a category
+
 To add a category or a subcategory, you need to add a folder in the directory of your choice. The name of the folder will be the name displayed in the URL. In this folder, you need to add a file named `index.html` with the following content :
 
 ```markdown
