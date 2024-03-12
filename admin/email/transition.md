@@ -44,7 +44,7 @@ et donne par la même occasion le mot de passe du compte Google associé à `new
 Dès lors, le détenteur (ou la détentrice) de `old@cssb.fr` peut transférer les mails, dossiers et contacts sur `new@cssb.fr`, et se connecter au compte Google associé.
 Aussi, il peut mettre en place [sa nouvelle signature](./signature.md) sur `new@cssb.fr`.
 
-> :bell: Cette étape se fait assez facilement si vous utilisez Thunderbird, Outlook ou équivalent. Si vous ne savez pas trop comment faire, simplement prendre un RdV en visio avec le ReMI pour effectuer la manipulation ... 
+> :bell: Cette étape se fait assez facilement si vous utilisez Thunderbird, Outlook ou équivalent. Si vous ne savez pas trop comment faire, simplement prendre un RdV en visio avec le RéMI pour effectuer la manipulation ... 
 
 ### Étape 3 : Transferts :incoming_envelope:
 
@@ -54,7 +54,7 @@ Une fois `new@cssb.fr` et le compte Google pris en main par leur détenteur, le 
 2. mise en place d'un message d'avertissement lorsque un mail est envoyé à `old@cssb.fr`,
 3. suppression de `old@cssb.fr` de toutes les mailings listes auxquelles elle était inscrite
 4. transfert des droits Google drive au nouveau compte, en particulier :
-    - documents dont le ReMI est propriétaire => par le ReMI
+    - documents dont le RéMI est propriétaire => par le RéMI
     - documents dont `old@cssb.fr` est propriétaire => transférer la propriété à `new@cssb.fr`
     - documents dont un autre compte est propriétaire => demander le transfert des droits à la personne détenteur du compte propriétaire
 5. envois d'un email à `tous@cssb.fr` pour indiquer le changement
