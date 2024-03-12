@@ -9,7 +9,7 @@ icon: uil-sync-exclamation
 
 1. [Explications](#explications)
 2. [Dénominations](#dénominations)
-2. [Procédure](#procédure)
+3. [Procédure](#procédure)
 
 ## Explications
 
@@ -68,7 +68,7 @@ Une fois `new@cssb.fr` et le compte Google pris en main par leur détenteur, le 
 - CIC
 - ...
 
-### Étape 4 : Nettoyage :coffin:
+### Étape 4 : Mise en bière :coffin:
 
 Quelques mois après la mise en place de l'étape 3, une fois que tout les transferts de droits Google ont été effectué et vérifié,
 alors l'ancienne adresse peut être officiellement supprimée, ainsi que le compte Google associé :partying_face:.
