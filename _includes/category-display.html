@@ -5,6 +5,9 @@
 {% assign page_card_array = "" | split: "," %}
 {% assign category_card_array = "" | split: "," %}
 
+{% assign baseLevel = page.dir | split: "/" | size %}
+{% assign catLevel = baseLevel | plus: 1 %}
+
 {% for p in site.pages %}
   {% if page != p %} <!-- If ever it's not the actual page -->
     {% assign checkArray = p.dir | split:page.dir %}
@@ -12,7 +15,8 @@
       {% assign page_card_array = page_card_array | push: p %}
     {% elsif checkArray[0] == blank %} <!-- If ever it's a page that is in a subdirectory and isn't the actual page -->
       {% assign category_page = site.pages | where: "url", p.dir | first %}
-      {% if category_page.title == p.title %} <!-- If ever it's a category page-->
+      {% assign pLevel = p.dir | split: "/" | size %}
+      {% if category_page.title == p.title and pLevel == catLevel %} <!-- If ever it's a category page-->
         {% assign category_card_array = category_card_array | push: p %}
       {% endif %}
     {% endif %}
