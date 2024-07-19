@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Chant de la 1ère Cie"
+title: "Sapeurs durs à la peine"
 author: service-informatique
-rank: 2
+rank: 1
 icon: uil-fire
-summary: Chant officiel de la Cie de France
+summary: Chant officiel de la 1ère Cie (Paris)
 ---
 
 **Sapeurs durs à la peine, dès que retentit la sirène.**<br>

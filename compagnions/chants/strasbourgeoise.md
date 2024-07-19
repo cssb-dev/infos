@@ -2,9 +2,9 @@
 layout: post
 title: "La Strasbourgeoise"
 author: service-informatique
-rank: 2
+rank: 7
 icon: uil-fire
-summary: Chant des Compagnies Nantaises
+summary: Chant officiel de la 7ème Cie (Versailles)
 ---
 
 > 🎶 [Musique ...](https://www.youtube.com/watch?v=zgVrwP_Hy80)

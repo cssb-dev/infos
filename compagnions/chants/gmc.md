@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Adieu du Bataillon de Choc"
+title: "La route vers l'inconnue"
 author: service-informatique
-rank: 3
+rank: 99.001
 icon: uil-fire
-summary: Chant du GMC
+summary: Chant officiel du GMC, sur l'air de "Adieu du Bataillon de Choc"
 ---
 
 _La route vers l'inconnue_<br>

@@ -2,9 +2,9 @@
 layout: post
 title: "La Blanche Hermine"
 author: service-informatique
-rank: 3
+rank: 99.07
 icon: uil-fire
-summary: ...
+summary: Chant de la 7ème Cie (Versailles)
 ---
 
 > 🎶 [Musique ...](https://www.youtube.com/watch?v=Nrhfpf368tc)

@@ -2,9 +2,9 @@
 layout: post
 title: "Sombres Fumées"
 author: service-informatique
-rank: 3
+rank: 4
 icon: uil-fire
-summary: ...
+summary: Chant officiel de la 4ème Cie (Réserve)
 ---
 
 _Sombres fumées_<br>

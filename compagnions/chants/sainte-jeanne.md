@@ -2,7 +2,7 @@
 layout: post
 title: "Sainte Jeanne de France"
 author: service-informatique
-rank: 2
+rank: 8
 icon: uil-fire
 summary: Chant officiel de la 8ème Cie (Saintes)
 ---

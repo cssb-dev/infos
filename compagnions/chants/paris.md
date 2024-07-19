@@ -2,7 +2,7 @@
 layout: post
 title: "Paris nous voilà"
 author: service-informatique
-rank: 3
+rank: 99.01
 icon: uil-fire
 summary: Hymne de la BSPP
 ---

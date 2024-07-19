@@ -2,9 +2,9 @@
 layout: post
 title: "Debout les soldats"
 author: service-informatique
-rank: 1
+rank: 0.1
 icon: uil-fire
-summary: Chant de la 1ère Brigade
+summary: Chant officiel de la 1ère Brigade, sur l'air de "Debout les paras"
 ---
 
 > 🎶 [Musique ...](https://www.youtube.com/watch?v=IRgXElU47F4)

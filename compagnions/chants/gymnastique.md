@@ -2,7 +2,7 @@
 layout: post
 title: "Pas de Gymnastique"
 author: service-informatique
-rank: 4
+rank: 999
 icon: uil-fire
 summary: ...
 ---

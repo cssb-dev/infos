@@ -2,9 +2,9 @@
 layout: post
 title: "Les Larmes d'Ivoire"
 author: service-informatique
-rank: 3
+rank: 99.07
 icon: uil-fire
-summary: Hommage aux disparus pour la Patrie
+summary: Chant de la 7ème Cie (Versailles)
 ---
 
 > 🎶 [Musique ...](https://www.youtube.com/watch?v=QZ9lB1Qnf0c)

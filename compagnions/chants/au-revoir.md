@@ -2,7 +2,7 @@
 layout: post
 title: "Au Revoir Camarade"
 author: service-informatique
-rank: 3
+rank: 999
 icon: uil-fire
 summary: ...
 ---

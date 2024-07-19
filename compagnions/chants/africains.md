@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Chant de la 10ième Cie (Lyon)"
+title: "C'est nous les Compagnons"
 author: service-informatique
-rank: 3
+rank: 10
 icon: uil-fire
-summary: Sur l'air du Chant des Africains
+summary: Chant officiel de la 10ème Cie, dur l'air du "Chant des Africains"
 ---
 
 > 🎶 [Musique ...](https://www.youtube.com/watch?v=X3PRNAJsdqM)

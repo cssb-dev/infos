@@ -2,7 +2,7 @@
 layout: post
 title: "J'avais un Camarade"
 author: service-informatique
-rank: 4
+rank: 999
 icon: uil-fire
 summary: ...
 ---

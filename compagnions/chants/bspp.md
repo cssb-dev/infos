@@ -2,9 +2,9 @@
 layout: post
 title: "Viva les Pompier"
 author: service-informatique
-rank: 3
+rank: 99.01
 icon: uil-fire
-summary: Chant Traditionnel de la Brigade des Sapeurs Pompiers de Paris
+summary: Chant de la 1ère Cie (Paris)
 ---
 
 _Ça fait deux jours que nous marchons_<br>

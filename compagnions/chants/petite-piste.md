@@ -2,7 +2,7 @@
 layout: post
 title: "La Petite Piste"
 author: service-informatique
-rank: 2
+rank: 99.07
 icon: uil-fire
 summary: Chant de la 7ème Cie (Versailles)
 ---
