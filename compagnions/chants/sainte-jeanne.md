@@ -7,7 +7,7 @@ icon: uil-fire
 summary: Chant officiel de la 8ème Cie (Saintes)
 ---
 
-> 🎶 [Musique ...](https://www.youtube.com/watch?v=09CJSt4eMRo)
+> 🎶 [Musique ...](https://www.youtube.com/watch?v=sI2v4FckAuw)
 
 _Jeanne, Seigneur, est ton œuvre splendide :_<br>
 _Un cœur de feu, une âme de guerrier !_<br>
