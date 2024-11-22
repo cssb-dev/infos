@@ -3,7 +3,7 @@ layout: post
 title: "Déroulement de l'intervention"
 description: "Informations dédiées au déroulement d'une intervention"
 rank: 1
-author: raph
+summary: En construction ...
 ---
 
 Cette page est là pour permettre un rappel global de l'ensemble des procédures et protocles à suivre au cours d'une intervention.

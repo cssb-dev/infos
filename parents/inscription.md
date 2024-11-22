@@ -3,8 +3,8 @@ layout: post
 title: "Avant de s'inscrire ..."
 author: service-informatique
 rank: 0
-summary: Comment préparer son inscription pour un camp ou une activité à l'année
-icon: uil-comment-alt-info
+summary: Comment préparer son inscription pour un camp ou des activités à l'année
+icon: uil-comment-info-alt
 ---
 
 **Bienvenue !**
@@ -19,7 +19,7 @@ Les inscriptions se déroulent généralement :
 
 et diffèrent légèrement selon **2 profiles d'inscription possibles** :
 
-### Inscription Jeune
+## Inscription Jeune
 
 > 📜 Moins de 18 ans sans diplôme du [BAFA](https://www.service-public.fr/particuliers/vosdroits/F2111), OU avec BAFA mais moins de 17 ans
 
@@ -34,7 +34,7 @@ ou attestation de vaccination du médecin
 3. le numéro de sécurité sociale du parent qui a le jeune sur sa carte vitale,
 4. si prise de traitements médicamenteux pendant le camp ou des week-end, les ordonnances qui vont avec.
 
-### Inscription Moniteur
+## Inscription Moniteur
 
 > 📜 Plus de 18 ans OU plus de 17 ans avec diplôme [BAFA](https://www.service-public.fr/particuliers/vosdroits/F2111) (1ère partie)
 
@@ -50,7 +50,7 @@ ou attestation de vaccination du médecin
 4. si BAFA, extraire l'attestation du niveau de formation ou le diplôme via le [site bafa-bafd.jeunes.gouv.fr](https://m.bafa-bafd.jeunes.gouv.fr)
 (cf [<i class="uil uil-download-alt"></i> pièce jointe](../assets/camp/Attestation_BAFA.pdf)).
 
-### Déroulé d'une inscription : 4 étapes
+## Déroulé d'une inscription : 4 étapes
 
 - **Étape 1 :** communiquez à votre secrétaire : **nom**, **prénom**, **date de naissance** et **adresse mail de contact** de la personne à inscrire,
 afin de pouvoir vous créer un compte sur notre intranet administratif : [Central](https://central.cssb.fr)

@@ -75,3 +75,50 @@ a {
 .padding-10 {
   padding: 10px;
 }
+
+/* Trombinoscope grid */
+.trombinoscope {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Trombinoscope cards */
+.tcard {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tcard img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tcard .info {
+    padding: 12px;
+}
+
+.tcard .info h2 {
+    margin: 0px 0px 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.tcard .info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}

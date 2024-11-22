@@ -7,9 +7,6 @@ summary: Réglement Intérieur, Projet Pédagogique, ...
 icon: uil-books
 ---
 
-> :mega: Si besoin, n'hésitez pas à consulter le [**mail de préparation**](./mail-preparation.md) pour le camp, avec les informations générales à savoir avant d'inscrire votre enfant ...
-
-
 [<i class="uil uil-download-alt"></i> Règlement Intérieur](../assets/camp/Reglement_interieur_CSSB.pdf)
 
 [<i class="uil uil-download-alt"></i> Projet Pédagogique](../assets/camp/Projet_pedagogique.pdf)

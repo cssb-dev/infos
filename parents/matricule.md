@@ -3,7 +3,7 @@ layout: post
 title: "Qu'est ce que le ''matricule'' ... ?"
 author: service-informatique
 rank: 0
-summary: Plus de détails sur cet identifiant créé pour chaque membre
+summary: Plus de détails sur cet identifiant unique créé pour chaque membre
 icon: uil-question-circle
 ---
 
@@ -35,7 +35,7 @@ en étant secrétaire pendant un an ou deux, sont matricule sera : SEHFAU77
 > Aussi, les éventuelles particules dans le nom de famille sont prises telles qu'elles. 
 > Example : Jô-b De la Malaine de Pommereau de Curie de Rocoulette, né en 1990, aura comme matricule JOBDEL90.
 
-### Utilisations
+## Utilisations
 
 - Pour vous connecter à [Central](https://central.cssb.fr), il vous suffit juste de rentrer le matricule de votre enfant,
 ou le votre, et un mot de passe que vous recevrez par mail
