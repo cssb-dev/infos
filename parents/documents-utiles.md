@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Documents Utiles"
+title: "Documents utiles"
 author: service-informatique
 rank: 2
 summary: Réglement Intérieur, Projet Pédagogique, ...
+icon: uil-books
 ---
 
 > :mega: Si besoin, n'hésitez pas à consulter le [**mail de préparation**](./mail-preparation.md) pour le camp, avec les informations générales à savoir avant d'inscrire votre enfant ...

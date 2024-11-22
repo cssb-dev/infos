@@ -61,13 +61,13 @@ nav_button: Retour à l'accueil
 nav_button_link: 
 
 # More Help
-help_one_title: Suggestion
-help_one_content: N'hésitez pas à signaler tout contenu incomplet et suggérer des améliorations en nous contactant par mail à remi@cssb.fr
+help_one_title: Corrections / Suggestions ? 
+help_one_content: N'hésitez pas nous contacter par mail à service.informatique@cssb.fr
 help_one_button: 
 help_one_link: 
 
-help_two_title: Aide supplémentaire
-help_two_content: Vous pouvez utiliser le Discord de la Compagnie Secouriste Sainte Barbe pour obtenir de l'aide supplémentaire. Lien par mail via remi@cssb.fr
+help_two_title: 
+help_two_content: 
 help_two_button: 
 help_two_link: 
 

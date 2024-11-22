@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Liste d'Affaires à Prévoir"
+title: "Liste d'affaires à prévoir pour un camp"
 author: service-informatique
 rank: 1
-summary: "Quelques informations utiles à lire avant de préparer sa valise" 
+summary: "Quelques informations utiles à lire avant de préparer sa valise"
+icon: uil-clipboard-notes
 ---
 
 **:scroll: Note :** _Cette page liste des recommandations : aucune affaire n'est strictement obligatoire (sauf indication contraire) et chaque jeune peut prévoir des affaires en fonction de lui-même et de son utilisation._
@@ -31,7 +32,6 @@ summary: "Quelques informations utiles à lire avant de préparer sa valise"
 - Lampe de poche avec piles de rechanges (frontale de préférence)
 - Enveloppe timbrée pour la rédaction du courrier
 - Affaire de cours (carnet + stylo)
-- Maillot de bain
 - 1 tenue civile
 - Ficelle type “drisse” pour étendre son linge
 - Produit anti-moustique
@@ -57,8 +57,5 @@ ou autres denrées alimentaires **sauf** si vous acceptez le _principe du partag
 Il est recommandé de marquer chacune des affaires personnelles.
 
 Les instruments de musique pourront être stockés à l’abri et en sécurité.
-
-Nous n'acceptons pas d'excentricité vestimentaire et capillaire 
-(les cheveux court sont demandés pour des raisons d'hygiène et de pédagogie).
 
 
