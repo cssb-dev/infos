@@ -100,7 +100,7 @@ icon: uil-nerd
         </div>
     </div>
     <div class="tcard">
-        <img src="../assets/admin/organigramme/Louis-CALAIS.jpg" alt="... image ...">
+        <img src="../assets/admin/organigramme/Louis-CALAIS.jpeg" alt="... image ...">
         <div class="info">
             <h2>Louis CALAIS</h2>
             <p>Référent Direction Camp</p>
