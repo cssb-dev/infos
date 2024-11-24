@@ -2,7 +2,7 @@
 layout: post
 title: "Documents utiles"
 author: service-informatique
-rank: 2
+rank: 4
 summary: Réglement Intérieur, Projet Pédagogique, ...
 icon: uil-books
 ---

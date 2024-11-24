@@ -7,29 +7,38 @@ summary: À consulter lors de la première prise en main d'une adresse email @cs
 icon: uil-comment-alt-exclamation
 ---
 
-> :rocket: Vous venez de prendre la responsabilité d'un poste administratif ou opérationnel à la CSSB, 
-> et avez reçu les informations de connection pour un compte email `[...]@cssb.fr`. 
-> Encore une fois, **merci énormément** pour votre engagement auprès des jeunes, 
-> et laissez nous vous donner **quelques informations _rapides_ mais néanmoins importantes** ...
+:rocket: _Vous venez de prendre la responsabilité d'un poste administratif ou opérationnel à la CSSB,_
+_et avez reçu un mot de passe pour utiliser une adresse `[...]@cssb.fr`._
+_Voici quelques premières informations importantes ..._
 
-Les adresses email sont actuellement hébergées sur un serveur loué à une entreprise, qui nous permet d'y avoir le site vitrine [www.cssb.fr](https://cssb.fr/) ainsi que d'autres services, en particulier un nombre illimité d'adresse email `[...]@cssb.fr`, sous ces conditions :
+## Comptes mails et stockage
+
+Les adresses email sont actuellement hébergées sur un serveur loué à une entreprise, 
+qui nous permet d'y avoir le site vitrine [www.cssb.fr](https://cssb.fr/) ainsi que d'autres services, 
+en particulier un nombre illimité d'adresse email `[...]@cssb.fr`, sous ces conditions :
 
 1. espace de stockage pour chaque compte limité à 0.5GB, éventuellement 1GB pour certains postes
 2. espace de stockage global pour l'ensemble des adresses email à 20GB
 
-> :scroll: Pour un ordre d'idée, 1GB (Gygabyte) de données correspond environ à 200 Encyclopédies de Diderot (en 17 volumes ...). Cela représente un certain coût énergétique de stockage, certes évolutif et dur à préciser, mais néanmoins conséquent :wink:
+> :scroll: Pour un ordre d'idée, 1GB (Gygabyte) de données correspond environ à 200 Encyclopédies de Diderot 
+> (en 17 volumes ...). Cela représente un certain coût énergétique de stockage, certes évolutif et dur à préciser, 
+> mais néanmoins conséquent :sweat_smile:
 
-D'où l'importance d'être conscient de ces limitations, qui doivent aussi nous motiver de manière générale à faire le tri dans nos mails, garder uniquement les mails importants, supprimer les plus vieux, partager des liens plutôt que des pièces jointes, ...
+D'où l'importance de :
 
-Pour cela (entre autre), chaque compte mail `[...]@cssb.fr` est associé à un **compte Google** qui permet d'utiliser les services mis à disposition, en particulier **Google Drive** permettant de stocker des fichiers de taille importante dans un espace privé, et de les partager éventuellement avec d'autres personnes au sein de la CSSB.
+- faire le tri dans nos mails : garder uniquement les mails importants, supprimer les plus vieux, 
+- penser à nettoyer régulièrement le dossier **Messages Envoyés**,
+- partager des liens plutôt que des pièces jointes volumineuse.
 
-_Voici donc les informations de base que vous devez savoir pour chacun de ces aspect, avec des liens vers d'autres informations plus détaillées :_
+Pour faciliter le dernier point, chaque compte mail `[...]@cssb.fr` est relié à un 
+[**compte Google associé**](./google.md), qui permet de stocker des documents 
+sur un **Google Drive** et de les mettre à disposition selon les besoins à d'autres membres de la CSSB.
 
-:hammer_and_wrench: en construction ...
 
 ## Transmission de compte
 
-Lors de la [transmission d'un poste](../informations.md#transmission-de-poste), il est important transmettre à la personne suivante :
+Lors de la [transmission d'un poste](../informations.md#transmission-de-poste), 
+il est important transmettre à la personne suivante :
 
 1. un **identifiant** et **mot de passe** du **compte mail**, par exemple `remi@cssb.fr` et `329eiw309riwwp`,
 2. le mot de passe du compte Google associé, **si différent du mot de passe du compte mail** (non recommandé).
@@ -44,4 +53,4 @@ Pour le **nouveau tenant du poste**, il faut alors :
 Pour l'**ancien tenant du poste**, il est important de :
 
 1. enlever le **compte mail** de logiciel client et/ou de son smartphone,
-2. se **déconnecter** du comptes Google associé.
+2. se **déconnecter** du compte Google associé et le supprimer de son ordinateur.

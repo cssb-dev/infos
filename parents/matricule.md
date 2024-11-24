@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Qu'est ce que le ''matricule'' ... ?"
+title: "Qu'est ce qu'un ''matricule'' ?"
 author: service-informatique
-rank: 0
+rank: 2
 summary: Plus de détails sur cet identifiant unique créé pour chaque membre
 icon: uil-question-circle
 ---
@@ -38,6 +38,6 @@ en étant secrétaire pendant un an ou deux, sont matricule sera : SEHFAU77
 ## Utilisations
 
 - Pour vous connecter à [Central](https://central.cssb.fr), il vous suffit juste de rentrer le matricule de votre enfant,
-ou le votre, et un mot de passe que vous recevrez par mail
+ou le votre, et un mot de passe (voir [informations de connection](../admin/inscriptions/connection.md) ...)
 - Lors du [règlement via HelloAsso pour une inscription](inscription.md#paiement), il vous est demandé de fournir le matricule
 des personnes pour lesquelles le paiement est effectué.

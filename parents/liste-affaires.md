@@ -2,7 +2,7 @@
 layout: post
 title: "Liste d'affaires à prévoir pour un camp"
 author: service-informatique
-rank: 1
+rank: 3
 summary: "Quelques informations utiles à lire avant de préparer sa valise"
 icon: uil-clipboard-notes
 ---

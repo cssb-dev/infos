@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Checklist pour la validation d'un dossier de camp"
+title: "Checklist pour la validation d'une fiche membre"
 author: service-informatique
 rank: 2
 summary: Liste des informations à vérifier avant de valider un dossier d'inscription
+icon: uil-clipboard-notes
 ---
 
 1. [Informations à vérifier pour tout le monde](#informations-à-vérifier-pour-tout-le-monde)
@@ -28,13 +29,10 @@ summary: Liste des informations à vérifier avant de valider un dossier d'inscr
 ## Informations spécifiques pour les jeunes
 
 1. Vérifier qu'il est bien dans votre compagnie
-2. Si 4ème Cie, vérifier que le certificat médical fourni est bien le bon
+2. Vérifier que la date indiquée sur le certificat médical n'est pas plus vielle de 1 ans par rapport à la date de mise en ligne du fichier 
 
 
 ## Informations spécifiques pour les chefs
 
-1. Vérifier la concordance nom-prénom du chef avec celui indiqué sur le Casier Judiciare
+1. Vérifier que **l'ensemble des prénoms et le nom de famille sont bien visibles** sur la carte d'identité
 2. Si BAFA, vérifier que le document donné est bien l'attestation ou le diplôme (voir [exemples de documents ...](./checklist/bafa.md)).
-3. Vérifier avec votre vice-président(e) délégué(e) si le chef est bien aidé financièrement (ou pas) par la compagnie, et que la **case en bas de la section _Informations générales_ correspond bien à la réalité**.
-
-> :bell: Si il est indiqué que la **date d'arrivée est non-standard**, mais **qu'aucune date n'est rentrée**, merci de **l'indiquer au directeur de camp** pour que ça soit régularisé ...

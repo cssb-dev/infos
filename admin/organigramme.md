@@ -103,7 +103,7 @@ icon: uil-nerd
         <img src="../assets/admin/organigramme/Louis-CALAIS.jpeg" alt="... image ...">
         <div class="info">
             <h2>Louis CALAIS</h2>
-            <p>Référent Direction Camp & Anciens</p>
+            <p>Responsable Anciens</p>
         </div>
     </div>
 </div>

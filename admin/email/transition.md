@@ -13,8 +13,10 @@ icon: uil-sync-exclamation
 
 ## Explications
 
-Dans un objectif de **simplification** :partying_face:, certaines adresses mail peuvent être renommées avec des noms plus courts (ex : `vicepresident.delegue.timbuktu@cssb.fr` =>`vicepresident.timbuktu@cssb.fr`).
-Le **changement n'est pas simple**, et nécessite différentes manipulations, que ce soit de la part du Service Informatique mais **aussi de votre part**.
+Dans un objectif de **simplification** 🥳, certaines adresses mail peuvent être renommées avec des noms plus courts 
+(ex : `vicepresident.delegue.timbuktu@cssb.fr` =>`vicepresident.timbuktu@cssb.fr`).
+Le **changement n'est pas simple**, et nécessite différentes manipulations, 
+que ce soit de la part du Service Informatique mais **aussi de votre part**.
 
 _Afin que cette transition se fasse avec le plus de douceur possible, voici les quelques étapes à suivre ..._ :innocent:
 
