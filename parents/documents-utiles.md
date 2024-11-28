@@ -7,8 +7,12 @@ summary: Réglement Intérieur, Projet Pédagogique, ...
 icon: uil-books
 ---
 
-[<i class="uil uil-download-alt"></i> Règlement Intérieur](../assets/camp/Reglement_interieur_CSSB.pdf)
+[<i class="uil uil-download-alt"></i> Règlement Intérieur](../assets/docs/reglement_interieur.pdf)
 
-[<i class="uil uil-download-alt"></i> Projet Pédagogique](../assets/camp/Projet_pedagogique.pdf)
+[<i class="uil uil-download-alt"></i> Projet Pédagogique](../assets/docs/projet_pedagogique.pdf)
 
-[<i class="uil uil-notes"></i> Liste des Affaires à Prévoir](./liste-affaires.md)
+[<i class="uil uil-download-alt"></i> Charte de bonne conduite (jeune)](../assets/docs/charte_jeune.pdf)
+
+[<i class="uil uil-download-alt"></i> Charte de bonne conduite (moniteur)](../assets/docs/charte_moniteur.pdf)
+
+[<i class="uil uil-download-alt"></i> Bon pour pouvoir pour assemblée générale](../assets/docs/bon_pouvoir_ag.pdf)
