@@ -86,9 +86,9 @@ icon: uil-nerd
 
 <div class="trombinoscope">
     <div class="tcard">
-        <img src="../assets/admin/organigramme/Joseph-DILLENSCHNEIDER.jpg" alt="... image ...">
+        <img src="../assets/admin/organigramme/unknown.png" alt="... image ...">
         <div class="info">
-            <h2>Joseph DILLENSCHNEIDER</h2>
+            <h2>Vianney BOULAY</h2>
             <p>Responsable Communication</p>
         </div>
     </div>
