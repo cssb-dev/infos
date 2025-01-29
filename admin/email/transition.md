@@ -2,7 +2,7 @@
 layout: post
 title: "Changement de nom d'adresse mail"
 author: service-informatique
-rank: 4
+rank: 10
 summary: Comment faire lors du changement de nom d'une adresse mail CSSB
 icon: uil-sync-exclamation
 ---

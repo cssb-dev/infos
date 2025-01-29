@@ -2,13 +2,13 @@
 layout: post
 title: "Signature officielle"
 author: service-informatique
-rank: 3
+rank: 5
 summary: Comment personaliser vos email avec une signature officielle CSSB
 icon: uil-envelope-bookmark
 ---
 
-1. [Format pour les membres de compagnies](#format-pour-les-membres-de-compagnies)
-2. [Format pour les membres du bureau national ou CSAO](#format-pour-les-membres-du-bureau-national-ou-csao)
+- [Format pour les membres de compagnies](#format-pour-les-membres-de-compagnies)
+- [Format pour les membres du bureau national ou CSAO](#format-pour-les-membres-du-bureau-national-ou-csao)
 
 ## Format pour les membres de compagnies
 
