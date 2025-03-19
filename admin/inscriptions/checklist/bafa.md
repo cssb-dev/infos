@@ -15,8 +15,13 @@ rank: 2
 
 - Certificat de **Formation Générale** :
 
+_Ancienne Version_ 
+
 <img src="../../../assets/admin/bafaOK-1.png" class="center width-70">
 
+_Nouvelle Version (depuis 2025)_
+
+<img src="../../../assets/admin/bafaOK-1-new.jpg" class="center width-70">
 
 ### BAFA 2
 
