@@ -25,7 +25,7 @@ icon: uil-clipboard-notes
 - Affaires pour la nuit
 - Sac de couchage, tapis de sol
 - Drap housse lit 1 place, éventuellement : taie d’oreiller et oreiller
-- Gourde personnelle
+- Gourde personnelle **OBLIGATOIRE** ⚠️
 - Petite pharmacie personnelle : médicaments prescrits **avec leur ordonnance** remis à l’assistant sanitaire
 - Petit sac à dos pour les sorties et grand jeu
 - Cirage noir + brosse
