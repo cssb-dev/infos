@@ -46,9 +46,9 @@ icon: uil-nerd
         </div>
     </div>
     <div class="tcard">
-        <img src="../assets/admin/organigramme/Aymerick-BILLOT.jpeg" alt="... image ...">
+        <img src="../assets/admin/organigramme/Louis-ARNAUD.jpg" alt="... image ...">
         <div class="info">
-            <h2>Aymerick BILLOT</h2>
+            <h2>Louis ARNAUD</h2>
             <p>Responsable Opérationnel National</p>
         </div>
     </div>
@@ -86,10 +86,10 @@ icon: uil-nerd
 
 <div class="trombinoscope">
     <div class="tcard">
-        <img src="../assets/admin/organigramme/unknown.png" alt="... image ...">
+        <img src="../assets/admin/organigramme/Joseph-DILLENSCHNEIDER.jpg" alt="... image ...">
         <div class="info">
-            <h2>Vianney BOULAY</h2>
-            <p>Responsable Communication</p>
+            <h2>Joseph DILLENSCHNEIDER</h2>
+            <p>Référent Communication</p>
         </div>
     </div>
     <div class="tcard">
@@ -100,13 +100,10 @@ icon: uil-nerd
         </div>
     </div>
     <div class="tcard">
-        <img src="../assets/admin/organigramme/Louis-CALAIS.jpeg" alt="... image ...">
+        <img src="../assets/admin/organigramme/Louis-CALAIS.jpg" alt="... image ...">
         <div class="info">
             <h2>Louis CALAIS</h2>
-            <p>Responsable Anciens</p>
+            <p>Référent Anciens</p>
         </div>
     </div>
 </div>
-
-
-
