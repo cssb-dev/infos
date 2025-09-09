@@ -11,7 +11,7 @@ icon: uil-books
 
 📜 _Fonctionnement général de la CSSB, documents mis à jour régulièrement._
 
-[<i class="uil uil-download-alt"></i> Status de l'Association](../assets/docs/status.pdf)
+[<i class="uil uil-download-alt"></i> Statuts de l'Association](../assets/docs/status.pdf)
 
 [<i class="uil uil-download-alt"></i> Règlement Intérieur](../assets/docs/reglement_interieur.pdf)
 
