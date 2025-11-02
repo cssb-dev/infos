@@ -16,17 +16,16 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.4
+          ruby-version: 3.0
+          bundler-cache: true
 
-      - name: Install Jekyll and dependencies
-        run: |
-          gem install bundler
-          bundle install
-        working-directory: ./
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
 
-      - name: Build Site
-        run: bundle exec jekyll build
-        working-directory: ./
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
 
       - name: Archive Build
         uses: actions/upload-pages-artifact@v3
