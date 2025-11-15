@@ -20,14 +20,17 @@ layout: default
             <div class="card-body text-justify">
                 {% if site.use_authors == true %}
                 {% assign post_author = site.data.authors[page.author] %}
-                <div class="flex-vertical-center mb-4">
+                <div id="postHeader" class="flex-vertical-center mb-4">
                   <figure class="avatar d-inline-block" style="align-items: center;">
                     <img  src="{{site.url }}{{ site.baseurl }}/assets/logo-cssb.webp" alt="CSSB Icon">
                   </figure>
                   <div class="ml-2">
-                    <p id="postAuthor" class="text-dark text-small mb-0"><span class="text-primary">
-                      Service Informatique - CSSB</span></p>
-                    <p class="text-dark text-small text-italic mb-0">Mise-à-jour le {{ page.last_modified_at | date: '%d %B %Y'  }}, {% include reading-time.html %}</p>
+                    <p id="postAuthor" class="text-dark text-small mb-0">
+                        <span class="text-primary">Service Informatique - CSSB</span>
+                    </p>
+                    <p class="text-dark text-small text-italic mb-0">
+                        Mise-à-jour le {{ page.last_modified_at | date: '%d %B %Y'  }}, {% include reading-time.html %}
+                    </p>
                   </div>
                 </div>
                 {% else %}

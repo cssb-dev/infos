@@ -14,10 +14,11 @@ rank: 4
 
 <script type="text/javascript">
     const gazettes = [
-      {% for project in site.data.gazettes.canva_projects %}
+      {% for gazette in site.data.gazettes.canva_projects %}
           {
-            "name": "{{ project.name }}",
-            "link": "{{ project.link }}"
+            "name": "{{ gazette.name }}",
+            "link": "{{ gazette.link }}",
+            "pdf": "{{ gazette.pdf }}",
           },
       {% endfor %}
     ]
@@ -27,9 +28,22 @@ rank: 4
     if(!projectName) {
       window.location.replace("/gazettes");
     }
-    const project = gazettes.find(gazette => gazette.name === projectName);
+    const gazette = gazettes.find(g => g.name === projectName);
 
-    document.getElementById("visualiser").src = project.link+"?embed"
-    document.getElementById("postTitle").innerText = `Votre Gazette : ${project.name}`
+    document.getElementById("visualiser").src = gazette.link+"?embed"
+    document.getElementById("postTitle").innerText = `Votre Gazette : ${gazette.name}`
     document.getElementById("postAuthor").children[0].innerText = "Service Communication - CSSB"
+
+    const container = document.getElementById("postHeader");
+    if (container && gazette.pdf) {
+        container.innerHTML += `
+        <div style="margin-left: auto;">
+            <p id="pdfDownload">
+            <a href="${gazette.pdf}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+            <i class="uil uil-import" style="font-size: 1.4em;"></i>
+            </a>
+            </p>
+        </div>
+        `;
+    }
 </script>
