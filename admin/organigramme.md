@@ -62,7 +62,7 @@ icon: uil-nerd
     <div class="tcard">
         <img src="../assets/admin/organigramme/unknown.png" alt="... image ...">
         <div class="info">
-            <h2>BCésar THEVENET</h2>
+            <h2>César THEVENET</h2>
             <p>Responsable Logistique National</p>
         </div>
     </div>
