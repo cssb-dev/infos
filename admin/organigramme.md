@@ -53,30 +53,30 @@ icon: uil-nerd
         </div>
     </div>
     <div class="tcard">
-        <img src="../assets/admin/organigramme/Pierre-Joseph-PAROIS.png" alt="... image ...">
-        <div class="info">
-            <h2>Pierre-Joseph PAROIS</h2>
-            <p>Responsable Opérationnel National Adjoint</p>
-        </div>
-    </div>
-    <div class="tcard">
         <img src="../assets/admin/organigramme/Benoit-PINSON.png" alt="... image ...">
         <div class="info">
             <h2>Benoît PINSON</h2>
-            <p>Responsable Logistique National</p>
+            <p>Responsable Opérationnel National Adjoint</p>
         </div>
     </div>
     <div class="tcard">
         <img src="../assets/admin/organigramme/unknown.png" alt="... image ...">
         <div class="info">
-            <h2>Augustin GOMOND</h2>
-            <p>Trésorier Général</p>
+            <h2>BCésar THEVENET</h2>
+            <p>Responsable Logistique National</p>
         </div>
     </div>
     <div class="tcard">
         <img src="../assets/admin/organigramme/Pierre_Vernet.jpg" alt="... image ...">
         <div class="info">
             <h2>Pierre VERNET</h2>
+            <p>Trésorier Général</p>
+        </div>
+    </div>
+    <div class="tcard">
+        <img src="../assets/admin/organigramme/unknown.png" alt="... image ...">
+        <div class="info">
+            <h2>Tanguy SEGOND</h2>
             <p>Trésorier Général Adjoint</p>
         </div>
     </div>
