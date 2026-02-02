@@ -18,9 +18,9 @@ icon: uil-nerd
         </div>
     </div>
     <div class="tcard">
-        <img src="../assets/admin/organigramme/Arnaud-KURZENNE.jpeg" alt="... image ...">
+        <img src="../assets/admin/organigramme/Killian-ONEILL.jpeg" alt="... image ...">
         <div class="info">
-            <h2>Arnaud KURZENNE</h2>
+            <h2>Kilian O'NEILL</h2>
             <p>Vice-président</p>
         </div>
     </div>
