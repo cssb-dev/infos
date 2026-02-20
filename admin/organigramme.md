@@ -74,7 +74,7 @@ icon: uil-nerd
         </div>
     </div>
     <div class="tcard">
-        <img src="../assets/admin/organigramme/unknown.png" alt="... image ...">
+        <img src="../assets/admin/organigramme/Tanguy-SEGOND.jpeg" alt="... image ...">
         <div class="info">
             <h2>Tanguy SEGOND</h2>
             <p>Trésorier Général Adjoint</p>
