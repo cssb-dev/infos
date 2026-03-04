@@ -39,13 +39,6 @@ icon: uil-nerd
         </div>
     </div>
     <div class="tcard">
-        <img src="../assets/admin/organigramme/Vincent-PERSONNE.jpg" alt="... image ...">
-        <div class="info">
-            <h2>Vincent PERSONNE</h2>
-            <p>Coordinateur National</p>
-        </div>
-    </div>
-    <div class="tcard">
         <img src="../assets/admin/organigramme/Louis-ARNAUD.jpg" alt="... image ...">
         <div class="info">
             <h2>Louis ARNAUD</h2>
