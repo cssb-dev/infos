@@ -3,14 +3,14 @@ layout: post
 title: Weekend CSAO
 author: coord-cssb
 rank: 1
-summary: Weekend annuelle de formation des chefs moniteurs 
-icon: uil-question-circle
+summary: Weekend annuelle de formation des chefs moniteurs
+icon: uil-award
 ---
 
 > 📆 **Du 24 au 26 Octobre 2026**
 
-Afin d'assurer une amélioration continue des pratiques et de maintenir une dynamique d'équipe solide, 
-la présence de l'ensemble des moniteurs et chefs est obligatoire lors du rassemblement annuel de la CSAO (Compagnie de soutien et d'appui opérationnel, 
+Afin d'assurer une amélioration continue des pratiques et de maintenir une dynamique d'équipe solide,
+la présence de l'ensemble des moniteurs et chefs est obligatoire lors du rassemblement annuel de la CSAO (Compagnie de soutien et d'appui opérationnel,
 la compagnie dédiée aux chefs).
 
 > 📣 But principal : **Parfaire votre formation humaine et technique**.
