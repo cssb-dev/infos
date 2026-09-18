@@ -1,14 +1,16 @@
 ---
 layout: post
 title: "Discussion Discord"
-rank: 4
+rank: 2
 summary: Comment accéder au forum de discussions et requêtes interne à la CSSB
 ---
 
 :scroll: _Le serveur Discord de la CSSB est un lieu de discussion et d'échange entre les membres de l'association. Il est ouvert à tous les membres de l'association, pour faciliter la communication sur des sujets et requêtes diverses (question ou besoin d'aide, problème à signaler, demande particulière, ...)._
 
 - [Rejoindre le serveur de discussion](#rejoindre-le-serveur-de-discussion)
+        - [** Besoin d'aide supplémentaire ? Suivez le tutoriel de Discord ou contactez remi@cssb.fr**](#-besoin-daide-supplémentaire--suivez-le-tutoriel-de-discord-ou-contactez-remicssbfr)
 - [Utilisation du serveur](#utilisation-du-serveur)
+  - [Organisation d'un salon de discussion](#organisation-dun-salon-de-discussion)
 - [Rôles](#rôles)
 
 ## Rejoindre le serveur de discussion
@@ -39,7 +41,7 @@ Par défaut, vous avez accès aux salons suivants :
 
 Les salons sont organisés dans différentes catégories: `Salons généraux`, `Service Com'`, ou `Service Info`. Vous n'avez pas forcément les mêmes accès à chaque salon, en fonction de votre rôle sur le serveur, certains salons peuvent être cachés, ou vous pouvez ne pas avoir la permission d'y écrire.
 
-Les salons dont le nom est précédé d'un `#` sont des salons de discussion textuels, vous pouvez y écrire des messages. Les salons dont le nom est précédé d'un `🔊` sont des salons de discussion vocaux, vous pouvez y rejoindre un appel vocal. Pour rejoindre un salon, il suffit de cliquer dessus. 
+Les salons dont le nom est précédé d'un `#` sont des salons de discussion textuels, vous pouvez y écrire des messages. Les salons dont le nom est précédé d'un `🔊` sont des salons de discussion vocaux, vous pouvez y rejoindre un appel vocal. Pour rejoindre un salon, il suffit de cliquer dessus.
 
 Les salons `#requete-comm` et `#requete-info` sont des salons de requêtes, vous pouvez y demander de l'aide ou poser des questions. Les membres du service concerné seront notifiés de votre message et pourront vous répondre.
 
@@ -49,7 +51,7 @@ Les salons `#requete-comm` et `#requete-info` sont des salons de requêtes, vous
 
 <img src="../../assets/admin/camp/discord/orga-salon.png" class="center width-90">
 
-En haut à gauche, vous pouvez voir le nom du salon, en blanc, ainsi que sa courte description à côté en gris. 
+En haut à gauche, vous pouvez voir le nom du salon, en blanc, ainsi que sa courte description à côté en gris.
 En haut à droite, avec une icone de punaise, vous pouvez voir les messages épinglés, qui sont des messages importants, à lire en priorité.
 Au milieu, vous pouvez voir les messages du salon, avec le nom de l'auteur, la date et l'heure d'envoi, ainsi que le contenu du message.
 En bas, vous pouvez voir la zone de saisie de texte, pour envoyer un message.
