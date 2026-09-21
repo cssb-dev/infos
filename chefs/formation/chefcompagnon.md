@@ -8,7 +8,9 @@ icon: uil-award
 ---
 
 > 📆 **Du 27 au 30 Octobre 2026**
+> 
 > 📍 **Village de la Vie** - Saintes
+> 
 >🙍‍♂️ **Public concerné :** jeunes garçons ayant **16 ans révolus d'ici le camp 2027** et n'ayant jamais suivi cette formation.
 
 Le Stage Chef Compagnon constitue le tout premier pas dans le parcours de formation des futurs encadrants. 
