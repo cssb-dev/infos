@@ -7,15 +7,15 @@ summary: 2ème et dernière formation diplomante de l'animation
 icon: uil-award
 ---
 
-> 📆 **Du 26 Octobre au 31 Octobre 2026**
+> 📆 **Du 26 Octobre _8h00_ au 31 Octobre _16h00_ 2026**
 >
 > 📍 **Village de la Vie** - Saintes
 >
->🙍‍♂️ **Public concerné :** Chef ayant valider sa formation **BAFA général** et sont **stage pratique** 
+>🙍‍♂️ **Public concerné :** Chef ayant validé sa formation **BAFA général** et sont **stage pratique** 
 
 Dernière étape pour concrétiser et valider le diplôme du BAFA, ce stage de perfectionnement est axé sur l'une des thématiques fondamentales de l'animation, le grand jeu et les jeux extérieurs.
 
-> 📣 But principal : **Formez des chefs CSSB et de développer la créativité et maîtriser les grands jeux**.
+> 📣 But principal : **Formez des chefs CSSB et de développer leurs créativité et maîtrise des grands jeux**.
 
 
 Cette session permet d'approfondir ses compétences d'animateur en se spécialisant dans la conception et la conduite d'activités d'envergure. Les stagiaires y apprendront à :
