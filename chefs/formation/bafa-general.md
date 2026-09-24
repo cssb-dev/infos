@@ -7,7 +7,7 @@ summary: 1er formation diplomante de l'animation
 icon: uil-award
 ---
 
-> 📆 **Du 17 au 24 octobre 2026**
+> 📆 **Du 17 octobre _8h00_ au 24 octobre _16h00_ 2026**
 >
 > 📍 **Village de la Vie** - Saintes
 >
