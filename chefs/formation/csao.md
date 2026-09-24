@@ -9,7 +9,7 @@ icon: uil-award
 
 > 📆 **Du 24 au 26 Octobre 2026**
 >
-> **Cette formation est obligatoire pour les chefs actif à la CSSB**
+> :bust_in_silhouette: **Cette formation est obligatoire pour les chefs actif à la CSSB**
 
 Afin d'assurer une amélioration continue des pratiques et de maintenir une dynamique d'équipe solide,
 la présence de l'ensemble des moniteurs et chefs est obligatoire lors du rassemblement annuel de la CSAO (Compagnie de soutien et d'appui opérationnel,
