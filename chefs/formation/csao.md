@@ -2,7 +2,7 @@
 layout: post
 title: Weekend CSAO
 author: coord-cssb
-rank: 1
+rank: 2
 summary: Weekend annuelle de formation des chefs moniteurs
 icon: uil-award
 ---
