@@ -11,7 +11,7 @@ icon: uil-award
 >
 > 📍 **Village de la Vie** - Saintes
 >
->🙍‍♂️ **Public concerné :** jeunes garçons ayant **16 ans révolus d'ici le camp 2027** et n'ayant jamais suivi cette formation.
+>:bust_in_silhouette: **Public concerné :** jeunes garçons ayant **16 ans révolus d'ici le camp 2027** et n'ayant jamais suivi cette formation.
 
 Le Stage Chef Compagnon constitue le tout premier pas dans le parcours de formation des futurs encadrants. 
 Pensé sur mesure pour les jeunes garçons appelés à prendre des responsabilités, ce stage intensif pose les fondations essentielles du rôle de chef.
