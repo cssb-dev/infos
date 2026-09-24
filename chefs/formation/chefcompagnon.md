@@ -2,7 +2,7 @@
 layout: post
 title: Stage Chef Compagnon
 author: coord-cssb
-rank: 2
+rank: 1
 summary: Initiation à la posture de chef
 icon: uil-award
 ---
