@@ -7,13 +7,13 @@ summary: 1er formation diplomante de l'animation
 icon: uil-award
 ---
 
-> 📆 **Du 17 au 24 octobre 2026**
+> 📆 **Du 17 octobre _8h00_ au 24 octobre _16h00_ 2026**
 >
 > 📍 **Village de la Vie** - Saintes
 >
 >🙍‍♂️ **Public concerné :** Jeune ayant 17 ans au camp CSSB 2027
 
-Le BAFA (Brevet d’Aptitude aux Fonctions d’Animateur) est un diplôme d'État délivré par le ministère de la Jeunesse et des Sports.
+Le BAFA _(Brevet d’Aptitude aux Fonctions d’Animateur)_ est un diplôme d'État délivré par le ministère de la Jeunesse et des Sports.
 Nous proposons cette formation en partenariat avec le Centre Lapparant pour l'éducation, qui est un organisme de formation agémentée. Ce n'est pas donc la CSSB qui délivre directement le diplôme du BAFA.
 Il permet aux chefs d’acquérir la qualification légale d’animateur tout en se formant à de nombreuses techniques d’animation, au cadre réglementaire ainsi qu'à la pédagogie auprès des jeunes.
 

@@ -2,12 +2,14 @@
 layout: post
 title: Weekend CSAO
 author: coord-cssb
-rank: 1
+rank: 2
 summary: Weekend annuelle de formation des chefs moniteurs
 icon: uil-award
 ---
 
 > 📆 **Du 24 au 26 Octobre 2026**
+>
+> :bust_in_silhouette: **Cette formation est obligatoire pour les chefs actif à la CSSB**
 
 Afin d'assurer une amélioration continue des pratiques et de maintenir une dynamique d'équipe solide,
 la présence de l'ensemble des moniteurs et chefs est obligatoire lors du rassemblement annuel de la CSAO (Compagnie de soutien et d'appui opérationnel,
@@ -25,4 +27,4 @@ Ce week-end de formation continue s'articule autour de trois axes majeurs :
 
 1. Connecter vous sur [Central](https://central.cssb.fr/dashboard/my-events)
 2. Inscrivez vous à la formation CSAO sur la page **Mes Inscriptions**
-3. Faire le paiement  avec le lien HelloAsso founnis après inscription
+3. Faire le paiement  avec le lien HelloAsso founnis après inscription sur Central
