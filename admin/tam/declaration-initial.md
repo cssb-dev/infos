@@ -15,7 +15,7 @@ Cette page détaille la procédure de déclaration administrative des Accueils C
 | Type de déclaration | Contenu principal | Délai légal de dépôt |
 | :--- | :--- | :--- |
 |  <mark style="background-color: #ff5757;">**Déclaration initiale**</mark> | <mark style="background-color: #ff5757;">**Lieu, dates, type d'accueil, effectif prévisionnel, organisateur**</mark> | <mark style="background-color: #ff5757;">**Au moins 2 mois avant le début de l'accueil**</mark> |
-|Déclaration complémentaire | Composition exacte de l'équipe (directeur, animateurs), effectifs réels et personnes en contact avec les mineur| Au moins 8 jours avant le début de l'accueil |
+| [Déclaration complémentaire](/declaration-complementaire) | Composition exacte de l'équipe (directeur, animateurs), effectifs réels et personnes en contact avec les mineur| Au moins 8 jours avant le début de l'accueil |
 
 
 
