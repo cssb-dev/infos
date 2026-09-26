@@ -63,7 +63,7 @@ p {
   margin: 0 0 $line-height / 2;
   opacity: 0.8;
   font-weight: 600;
-  
+
 }
 
 a {
@@ -164,7 +164,7 @@ dl {
 
 .link-underline {
   position: relative;
-  
+
   &:after {
     content: '';
     position: absolute;
@@ -174,14 +174,14 @@ dl {
     height: 1px;
     background: currentColor; // system color
     transition: all ease .3s;
-  } 
-  
+  }
+
   &:hover:after {
     left: 0;
     right: 0;
     height: 2px;
-  } 
-  
+  }
+
   &:before {
     position: absolute;
     transform: translateX(-100%);
@@ -195,4 +195,28 @@ dl {
 
 .muli {
   font-family: "Muli", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.important {
+    font-weight: bold;
+    color: $code-color;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 4px;
+  background-color: #ffe0e0;
+  -webkit-box-decoration-break: clone;  /* Safari / Chrome */
+  box-decoration-break: clone;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid lightgrey;
+  border-radius: 12px;
+}
+
+td, th {
+  border: 1px solid lightgrey;
+  padding: 8px;
 }

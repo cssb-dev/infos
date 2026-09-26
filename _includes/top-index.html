@@ -1,14 +1,30 @@
 <li class="breadcrumb-item">
-    <a href="{{site.url }}{{ site.baseurl }}">Accueil</a>
+    <a href="{{ site.url }}{{ site.baseurl }}">Accueil</a>
 </li>
 {% assign urls = page.url | split: '/' %}
 {% assign nParents = urls.size | minus: 1 %}
 {% assign path = "" %}
 {% for i in (1..nParents) %}
     {% assign path = path | append: "/" | append: urls[i] %}
+    {% assign segment = urls[i] | replace: ".html", "" %}
 
-    {% assign indexTitle = urls[i] | split : ".html" %}
+    {% if i == nParents %}
+        {% if page.title %}
+            {% assign display_title = page.title %}
+        {% else %}
+            {% assign display_title = segment | capitalize %}
+        {% endif %}
+    {% else %}
+        {% assign index_url = path | append: "/index.html" %}
+        {% assign parent_page = site.pages | where: "url", index_url | first %}
+        {% if parent_page and parent_page.title %}
+            {% assign display_title = parent_page.title %}
+        {% else %}
+            {% assign display_title = segment | capitalize %}
+        {% endif %}
+    {% endif %}
+
     <li class="breadcrumb-item">
-    <a href="{{site.url }}{{ site.baseurl }}{{ path }}">{{ indexTitle[0] | capitalize }}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ path }}">{{ display_title }}</a>
     </li>
 {% endfor %}
