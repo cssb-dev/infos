@@ -8,7 +8,7 @@ summary: Hymne non-officiel de la CSSB
 ---
 
 _Mon père était vétérinaire_<br>
-_Il soufflait dans l'cul des chevaux_
+_Il soufflait dans l'cul des chevaux_<br>
 _Avec un petit tube en verre_<br>
 _Afin de les rendre plus beau_<br>
 _Mais un jour ce fut le contraire_<br>
