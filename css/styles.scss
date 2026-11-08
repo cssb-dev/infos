@@ -2,6 +2,8 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@use "sass:math";
+
 // Variables and mixins
 @import "../_scss/variables";
 @import "../_scss/mixins";

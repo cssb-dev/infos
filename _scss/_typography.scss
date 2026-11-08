@@ -37,7 +37,7 @@ h1,
 h2,
 .h2 {
   font-size: 1.2rem;
-  padding-bottom: $line-height / 3;
+  padding-bottom: math.div($line-height, 3);
   border-bottom: 1px solid #d7d8e1;
 }
 h3,
@@ -60,7 +60,7 @@ h6,
 
 // Paragraphs
 p {
-  margin: 0 0 $line-height / 2;
+  margin: 0 0 math.div($line-height, 2);
   opacity: 0.8;
   font-weight: 600;
 
