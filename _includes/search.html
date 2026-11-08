@@ -1,0 +1,141 @@
+<div id="search-modal" class="search-modal" hidden>
+  <div class="search-backdrop" data-search-close></div>
+  <div class="search-dialog" role="dialog" aria-label="Recherche dans la documentation">
+    <div class="search-input-row">
+      <i class="uil uil-search"></i>
+      <input id="search-input" type="text" placeholder="Rechercher dans la documentation..." autocomplete="off">
+      <kbd>Ctrl K</kbd>
+    </div>
+    <ul id="search-results" class="search-results"></ul>
+  </div>
+</div>
+
+<script>
+(function () {
+  var modal = document.getElementById('search-modal');
+  var input = document.getElementById('search-input');
+  var results = document.getElementById('search-results');
+  var index = null;
+  var matches = [];
+  var activeIndex = -1;
+  var baseUrl = '{{ site.baseurl }}';
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function loadIndex() {
+    if (index) { return; }
+    fetch(baseUrl + '/search.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) { index = data; render(input.value); });
+  }
+
+  function snippetText(text, q) {
+    var idx = q ? text.toLowerCase().indexOf(q) : -1;
+    var start = idx >= 0 ? Math.max(0, idx - 40) : 0;
+    var end = idx >= 0 ? Math.min(text.length, idx + q.length + 100) : Math.min(text.length, 140);
+    var html = start > 0 ? '…' : '';
+    html += escapeHtml(text.slice(start, idx >= 0 ? idx : end));
+    if (idx >= 0) {
+      html += '<mark>' + escapeHtml(text.slice(idx, idx + q.length)) + '</mark>';
+      html += escapeHtml(text.slice(idx + q.length, end));
+    }
+    if (end < text.length) { html += '…'; }
+    return html;
+  }
+
+  function snippetFor(p, q) {
+    var s = p.summary || '';
+    if (q && s.toLowerCase().indexOf(q) !== -1) { return snippetText(s, q); }
+    return snippetText(p.content || '', q);
+  }
+
+  function render(query) {
+    if (!index) {
+      results.innerHTML = '<li class="search-empty">Chargement de l\'index de recherche...</li>';
+      return;
+    }
+    var q = query.trim().toLowerCase();
+    if (q.length < 3) {
+      matches = [];
+      activeIndex = -1;
+      results.innerHTML = '<li class="search-empty">Tapez au moins 3 caractères pour lancer la recherche</li>';
+      return;
+    }
+    matches = index.filter(function (p) {
+      return !q || p.title.toLowerCase().indexOf(q) !== -1 || (p.summary || '').toLowerCase().indexOf(q) !== -1 || p.content.toLowerCase().indexOf(q) !== -1;
+    }).slice(0, 12);
+    activeIndex = -1;
+    if (!matches.length) {
+      results.innerHTML = '<li class="search-empty">Aucun résultat pour « ' + escapeHtml(query) + ' »</li>';
+      return;
+    }
+    results.innerHTML = matches.map(function (p) {
+      return '<li><a href="' + baseUrl + p.url + '">' + escapeHtml(p.title) +
+        '<br><em class="search-snippet">' + snippetFor(p, q) + '</em></a></li>';
+    }).join('');
+  }
+
+  function setActive(i) {
+    var links = results.querySelectorAll('li a');
+    if (!links.length) { return; }
+    activeIndex = Math.max(0, Math.min(i, links.length - 1));
+    Array.prototype.forEach.call(links, function (link, idx) {
+      link.classList.toggle('active', idx === activeIndex);
+    });
+    links[activeIndex].scrollIntoView({ block: 'nearest' });
+  }
+
+  function openModal() {
+    modal.hidden = false;
+    input.value = '';
+    render('');
+    input.focus();
+    loadIndex();
+  }
+
+  function closeModal() {
+    modal.hidden = true;
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      if (modal.hidden) { openModal(); } else { closeModal(); }
+      return;
+    }
+    if (modal.hidden) { return; }
+    if (e.key === 'Escape') {
+      closeModal();
+    } else if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      setActive(activeIndex + 1);
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      setActive(activeIndex - 1);
+    } else if (e.key === 'Enter' && activeIndex >= 0 && matches[activeIndex]) {
+      window.location.href = baseUrl + matches[activeIndex].url;
+    }
+  });
+
+  input.addEventListener('input', function () { render(input.value); });
+
+  results.addEventListener('mouseover', function (e) {
+    var link = e.target.closest('a');
+    if (!link) { return; }
+    var idx = Array.prototype.indexOf.call(results.querySelectorAll('li a'), link);
+    if (idx !== -1) { setActive(idx); }
+  });
+
+  modal.addEventListener('click', function (e) {
+    if (e.target.hasAttribute('data-search-close')) { closeModal(); }
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-search-open]'), function (btn) {
+    btn.addEventListener('click', function (e) { e.preventDefault(); openModal(); });
+  });
+})();
+</script>

@@ -1,0 +1,129 @@
+// Site-specific additions: page title row + GitHub edit button, search modal
+
+.btn {
+  border-radius: 0.3rem;
+}
+
+.page-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.github-edit-btn {
+  flex-shrink: 0;
+}
+
+.search-open-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+}
+
+.search-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10vh 1rem 1rem;
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.search-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.search-dialog {
+  position: relative;
+  width: 100%;
+  max-width: 36rem;
+  background: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.search-input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e7e9ed;
+
+  i {
+    color: #888;
+  }
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+  }
+
+  kbd {
+    display: inline-block;
+    line-height: 1;
+    font-size: 0.7rem;
+    padding: 0.22rem 0.35rem 0.06rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    color: #666;
+  }
+}
+
+.search-results {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  max-height: 50vh;
+  overflow-y: auto;
+
+  li a {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    color: #454d5d;
+    text-decoration: none;
+
+    &:hover,
+    &.active {
+      background: #e8edf5;
+    }
+  }
+
+  .search-empty {
+    padding: 0.75rem;
+    color: #666;
+    text-align: center;
+  }
+
+  .search-snippet {
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #66707f;
+
+    mark {
+      background: #ffe9a8;
+      color: inherit;
+      padding: 0 0.1rem;
+      border: none;
+      border-radius: 0.15rem;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+---
+---
+{% assign searchable = site.pages | where_exp: "p", "p.url != '/search.json' and p.url != '/404'" %}
+[
+{% for p in searchable %}
+  {
+    "title": {{ p.title | default: p.url | jsonify }},
+    "summary": {{ p.summary | default: "" | jsonify }},
+    "url": {{ p.url | jsonify }},
+    "content": {{ p.content | strip_html | strip_newlines | truncate: 800 | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

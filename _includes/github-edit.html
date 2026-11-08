@@ -1,0 +1,11 @@
+{% if site.github_username %}
+<a
+  class="btn btn-sm github-edit-btn"
+  href="https://github.com/{{ site.github_username }}/edit/{{ site.github_branch | default: 'gaia' }}/{{ page.path }}"
+  target="_blank"
+  rel="noopener"
+  title="Modifier cette page sur GitHub"
+>
+  <i class="uil uil-github"></i>&nbsp;Modifier sur GitHub
+</a>
+{% endif %}

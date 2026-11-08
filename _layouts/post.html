@@ -13,7 +13,10 @@ layout: default
           <ul class="breadcrumb">
             {% include top-index.html %}
           </ul>
-          <h1 id="postTitle" class="text-light text-bold">{{ page.title }}</h1>
+          <div class="page-title-row">
+            <h1 id="postTitle" class="text-light text-bold">{{ page.title }}</h1>
+            {% include github-edit.html %}
+          </div>
         </div>
         <div class="column col-12">
           <div class="card">
