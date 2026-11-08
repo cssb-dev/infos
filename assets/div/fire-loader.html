@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Fire</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(ellipse at 50% 80%, #2b1a12 0%, #120a08 55%, #050303 100%);
+    overflow: hidden;
+  }
+
+  .fire {
+    position: relative;
+    width: 260px;
+    height: 360px;
+  }
+
+  /* ambient glow behind the flames */
+  .glow {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 360px;
+    height: 360px;
+    margin-left: -180px;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+      rgba(255, 120, 20, 0.35) 0%,
+      rgba(255, 80, 0, 0.12) 45%,
+      transparent 70%);
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1);    opacity: 0.85; }
+    50%      { transform: scale(1.08); opacity: 1; }
+  }
+
+  /* flame layers: teardrop-ish blobs, transform-origin at the base */
+  .flame {
+    position: absolute;
+    bottom: 70px;
+    border-radius: 50% 50% 50% 50% / 62% 62% 38% 38%;
+    transform-origin: 50% 100%;
+  }
+
+  .flame.outer {
+    left: 50%;
+    width: 150px;
+    height: 235px;
+    margin-left: -75px;
+    background: linear-gradient(to top,
+      #ff4d00 0%, #ff7b00 45%,
+      rgba(255, 140, 0, 0.55) 75%, transparent 100%);
+    filter: blur(10px);
+    animation: flicker 0.9s ease-in-out infinite;
+  }
+
+  .flame.mid {
+    left: 50%;
+    width: 105px;
+    height: 178px;
+    margin-left: -52px;
+    background: linear-gradient(to top,
+      #ff8c00 0%, #ffa726 50%,
+      rgba(255, 190, 60, 0.7) 80%, transparent 100%);
+    filter: blur(5px);
+    animation: flicker 0.7s ease-in-out infinite -0.2s;
+  }
+
+  .flame.core {
+    left: 50%;
+    width: 58px;
+    height: 115px;
+    margin-left: -29px;
+    background: linear-gradient(to top,
+      #ffd54f 0%, #fff176 55%,
+      rgba(255, 255, 205, 0.9) 85%, transparent 100%);
+    filter: blur(2px);
+    animation: flicker 0.55s ease-in-out infinite -0.35s;
+  }
+
+  @keyframes flicker {
+    0%   { transform: scale(1, 1)        skewX(0deg); }
+    25%  { transform: scale(0.95, 1.07)  skewX(2.5deg); }
+    50%  { transform: scale(1.05, 0.93)  skewX(-2deg); }
+    75%  { transform: scale(0.97, 1.04)  skewX(1.5deg); }
+    100% { transform: scale(1, 1)        skewX(0deg); }
+  }
+
+  /* logs */
+  .log {
+    position: absolute;
+    bottom: 46px;
+    left: 50%;
+    width: 170px;
+    height: 26px;
+    margin-left: -85px;
+    border-radius: 13px;
+    background: linear-gradient(to bottom, #8a5a2b 0%, #6b4423 40%, #4a2c15 100%);
+    box-shadow: inset 0 3px 4px rgba(255, 200, 140, 0.35), 0 4px 8px rgba(0, 0, 0, 0.6);
+  }
+  .log.back  { transform: rotate(10deg); }
+  .log.front { transform: rotate(-9deg) translateY(9px); }
+
+  /* rising embers (negative delays so they are mid-flight on load) */
+  .ember {
+    position: absolute;
+    bottom: 80px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #fff3c4 0%, #ffb300 60%, rgba(255, 120, 0, 0) 100%);
+    animation: rise 2.4s linear infinite;
+  }
+
+  @keyframes rise {
+    0%   { transform: translate(0, 0) scale(1);      opacity: 0; }
+    12%  { opacity: 1; }
+    100% { transform: translate(var(--x, 0px), -270px) scale(0.2); opacity: 0; }
+  }
+</style>
+</head>
+<body>
+  <div class="fire">
+    <div class="glow"></div>
+    <div class="flame outer"></div>
+    <div class="flame mid"></div>
+    <div class="flame core"></div>
+
+    <span class="ember" style="left: 42%; --x: -34px; animation-delay: -0.2s;"></span>
+    <span class="ember" style="left: 50%; --x: 6px;   animation-delay: -1.1s; animation-duration: 2.9s;"></span>
+    <span class="ember" style="left: 58%; --x: 30px;  animation-delay: -1.7s; animation-duration: 2.1s;"></span>
+    <span class="ember" style="left: 47%; --x: -14px; animation-delay: -2.2s; animation-duration: 3.2s; width: 5px; height: 5px;"></span>
+    <span class="ember" style="left: 54%; --x: 18px;  animation-delay: -0.7s; animation-duration: 2.6s; width: 5px; height: 5px;"></span>
+
+    <div class="log back"></div>
+    <div class="log front"></div>
+  </div>
+</body>
+</html>

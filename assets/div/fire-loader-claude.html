@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fire loader</title>
+<style>
+:root{
+  --bg:#120d12; --ink:#f3dcc4; --core:#fff3b0; --mid:#ffb627; --edge:#ff4d1a;
+  color-scheme:dark; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:inherit}
+html,body{height:100%;margin:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:Georgia,"Times New Roman",serif;
+  display:grid; place-items:center; overflow:hidden;
+}
+.loader{display:grid; justify-items:center; gap:2.2rem}
+
+.fire{position:relative; width:180px; height:220px}
+
+/* warm glow on the ground */
+.fire::before{
+  content:""; position:absolute; left:50%; bottom:-30px; width:300px; height:120px;
+  transform:translateX(-50%);
+  background:radial-gradient(closest-side,rgba(255,110,40,.45),transparent);
+  animation:glow 1.3s ease-in-out infinite alternate;
+}
+/* two crossed logs */
+.fire::after{
+  content:""; position:absolute; left:50%; bottom:-14px; width:130px; height:16px;
+  transform:translateX(-50%); border-radius:8px;
+  background:linear-gradient(#3a241a,#1f120d);
+  box-shadow:0 -9px 0 -2px #2c1a13;
+}
+
+.flames{position:absolute; inset:0; filter:blur(3px)}
+.flames i{
+  position:absolute; bottom:0; left:50%;
+  width:var(--s); height:var(--s); margin-left:calc(var(--s) / -2);
+  border-radius:50% 50% 50% 50% / 65% 65% 35% 35%;
+  background:radial-gradient(circle at 50% 68%,var(--core) 0,var(--mid) 34%,var(--edge) 62%,transparent 72%);
+  mix-blend-mode:screen; opacity:0;
+  animation:rise 1.8s ease-in infinite; animation-delay:var(--d);
+}
+@keyframes rise{
+  0%  {transform:translate(var(--x0),0) scale(1); opacity:0}
+  15% {opacity:1}
+  100%{transform:translate(var(--x1),-190px) scale(.08); opacity:0}
+}
+@keyframes glow{from{opacity:.65; transform:translateX(-50%) scale(.95)}to{opacity:1; transform:translateX(-50%) scale(1.05)}}
+
+/* sparks */
+.sparks i{
+  position:absolute; bottom:40px; left:50%; width:4px; height:4px; border-radius:50%;
+  background:var(--mid); box-shadow:0 0 6px 2px var(--edge); opacity:0;
+  animation:spark 2.4s ease-out infinite; animation-delay:var(--d);
+}
+@keyframes spark{
+  0%{transform:translate(var(--x0),0); opacity:0}
+  10%{opacity:1}
+  100%{transform:translate(var(--x1),-250px); opacity:0}
+}
+
+.label{font-size:1.15rem; letter-spacing:.04em}
+.label span{display:inline-block; animation:dot 1.4s infinite; opacity:.2}
+.label span:nth-child(2){animation-delay:.2s}
+.label span:nth-child(3){animation-delay:.4s}
+@keyframes dot{40%{opacity:1}}
+
+@media (prefers-reduced-motion:reduce){
+  .flames i{animation-duration:5s}
+  .sparks{display:none}
+}
+</style>
+</head>
+<body>
+<div class="loader" role="status" aria-live="polite">
+  <div class="fire" aria-hidden="true">
+    <div class="flames">
+      <i style="--s:84px;--d:-.0s;--x0:-14px;--x1:-6px"></i>
+      <i style="--s:70px;--d:-.14s;--x0:18px;--x1:8px"></i>
+      <i style="--s:92px;--d:-.28s;--x0:0px;--x1:-4px"></i>
+      <i style="--s:60px;--d:-.42s;--x0:-30px;--x1:-14px"></i>
+      <i style="--s:76px;--d:-.56s;--x0:28px;--x1:12px"></i>
+      <i style="--s:88px;--d:-.70s;--x0:-6px;--x1:6px"></i>
+      <i style="--s:64px;--d:-.84s;--x0:12px;--x1:-8px"></i>
+      <i style="--s:80px;--d:-.98s;--x0:-22px;--x1:-2px"></i>
+      <i style="--s:72px;--d:-1.12s;--x0:24px;--x1:14px"></i>
+      <i style="--s:90px;--d:-1.26s;--x0:4px;--x1:-10px"></i>
+      <i style="--s:58px;--d:-1.40s;--x0:-12px;--x1:10px"></i>
+      <i style="--s:78px;--d:-1.54s;--x0:16px;--x1:-6px"></i>
+    </div>
+    <div class="sparks">
+      <i style="--d:-.2s;--x0:-20px;--x1:-50px"></i>
+      <i style="--d:-.9s;--x0:14px;--x1:44px"></i>
+      <i style="--d:-1.5s;--x0:-4px;--x1:18px"></i>
+      <i style="--d:-2s;--x0:26px;--x1:-24px"></i>
+    </div>
+  </div>
+  <div class="label">Loading<span>.</span><span>.</span><span>.</span></div>
+</div>
+</body>
+</html>

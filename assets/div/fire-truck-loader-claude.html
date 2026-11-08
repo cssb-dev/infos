@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fire truck loader</title>
+<style>
+:root{
+  --bg:#141018; --ink:#f3dcc4; --red:#d62828; --red-dk:#9d1c1c; --gold:#f2b705;
+  --road:#2b2531; --glass:#9fd3e6; --steel:#c9ccd1;
+  color-scheme:dark; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:inherit}
+html,body{height:100%;margin:0}
+body{background:var(--bg); color:var(--ink); font-family:Georgia,"Times New Roman",serif; display:grid; place-items:center; overflow:hidden}
+.loader{display:grid; justify-items:center; gap:1.8rem}
+
+.scene{position:relative; width:min(360px,92vw); height:150px; overflow:hidden}
+
+/* road */
+.road{position:absolute; left:0; right:0; bottom:0; height:24px; background:var(--road)}
+.road::after{
+  content:""; position:absolute; left:0; right:0; top:10px; height:3px;
+  background:repeating-linear-gradient(90deg,#e8d9b5 0 24px,transparent 24px 48px);
+  animation:road .6s linear infinite;
+}
+@keyframes road{to{background-position:-48px 0}}
+
+/* speed lines */
+.wind i{position:absolute; height:2px; width:50px; border-radius:2px; background:rgba(243,220,196,.25); left:100%; animation:wind 1.1s linear infinite; animation-delay:var(--d); top:var(--y)}
+@keyframes wind{to{transform:translateX(-460px)}}
+
+/* truck */
+.truck{position:absolute; left:50%; bottom:18px; width:240px; height:96px; margin-left:-120px; animation:bob .3s ease-in-out infinite alternate}
+@keyframes bob{to{transform:translateY(-1.5px)}}
+.truck>*{position:absolute}
+
+.body{left:0; bottom:14px; width:152px; height:54px; background:var(--red); border-radius:5px 3px 3px 5px;
+  box-shadow:inset 0 -6px 0 var(--red-dk)}
+.body::before{ /* white + gold stripe */
+  content:""; position:absolute; left:0; right:0; top:26px; height:7px; background:#f5f0e6; border-bottom:2px solid var(--gold)}
+.body::after{ /* compartment doors */
+  content:""; position:absolute; left:8px; right:8px; top:6px; height:16px;
+  background:repeating-linear-gradient(90deg,rgba(0,0,0,.28) 0 2px,transparent 2px 35px)}
+.ladder{left:10px; bottom:70px; width:132px; height:9px; border-top:2px solid var(--steel); border-bottom:2px solid var(--steel);
+  background:repeating-linear-gradient(90deg,var(--steel) 0 2px,transparent 2px 9px)}
+.ladder::before,.ladder::after{content:""; position:absolute; bottom:-14px; width:3px; height:12px; background:#7b7f87}
+.ladder::before{left:14px}.ladder::after{right:14px}
+
+.cab{left:152px; bottom:14px; width:80px; height:46px; background:var(--red); border-radius:3px 22px 4px 4px;
+  box-shadow:inset 0 -6px 0 var(--red-dk)}
+.cab::before{ /* windscreen */
+  content:""; position:absolute; left:8px; top:7px; width:42px; height:18px; background:linear-gradient(135deg,var(--glass),#5c9db8); border-radius:3px 14px 2px 2px}
+.cab::after{ /* bumper + headlight */
+  content:""; position:absolute; right:-2px; bottom:4px; width:10px; height:8px; background:var(--steel); border-radius:2px;
+  box-shadow:-2px -16px 0 -1px #ffe9a3}
+
+/* light bar */
+.bar{left:164px; bottom:60px; width:38px; height:8px; border-radius:3px 3px 0 0; background:#222; display:flex; overflow:visible}
+.bar b{flex:1; animation:flash .5s steps(1) infinite}
+.bar b:first-child{background:#ff3b3b; border-radius:3px 0 0 0}
+.bar b:last-child{background:#3b7bff; border-radius:0 3px 0 0; animation-delay:-.25s}
+@keyframes flash{
+  0%{opacity:1; box-shadow:0 0 14px 6px currentColor}
+  50%{opacity:.2; box-shadow:none}
+}
+.bar b:first-child{color:rgba(255,59,59,.8)}
+.bar b:last-child{color:rgba(59,123,255,.8)}
+
+/* wheels */
+.wheel{bottom:0; width:32px; height:32px; border-radius:50%; background:#15121a;
+  border:3px solid #0b090d; animation:spin .45s linear infinite}
+.wheel::before{content:""; position:absolute; inset:5px; border-radius:50%;
+  background:repeating-conic-gradient(var(--steel) 0 20deg,#6d717a 20deg 60deg)}
+.wheel::after{content:""; position:absolute; inset:11px; border-radius:50%; background:#2a2630}
+.w1{left:26px}.w2{left:100px}.w3{left:176px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.label{font-size:1.15rem; letter-spacing:.04em}
+.label span{display:inline-block; animation:dot 1.4s infinite; opacity:.2}
+.label span:nth-child(2){animation-delay:.2s}
+.label span:nth-child(3){animation-delay:.4s}
+@keyframes dot{40%{opacity:1}}
+
+@media (prefers-reduced-motion:reduce){
+  .wind{display:none}
+  .road::after{animation-duration:3s}
+  .wheel{animation-duration:2.5s}
+  .truck{animation:none}
+  .bar b{animation-duration:1.6s}
+}
+</style>
+</head>
+<body>
+<div class="loader" role="status" aria-live="polite">
+  <div class="scene" aria-hidden="true">
+    <div class="wind">
+      <i style="--y:30px;--d:-.2s"></i>
+      <i style="--y:52px;--d:-.7s"></i>
+      <i style="--y:74px;--d:-.45s"></i>
+    </div>
+    <div class="road"></div>
+    <div class="truck">
+      <div class="ladder"></div>
+      <div class="body"></div>
+      <div class="cab"></div>
+      <div class="bar"><b></b><b></b></div>
+      <div class="wheel w1"></div>
+      <div class="wheel w2"></div>
+      <div class="wheel w3"></div>
+    </div>
+  </div>
+  <div class="label">Loading<span>.</span><span>.</span><span>.</span></div>
+</div>
+</body>
+</html>

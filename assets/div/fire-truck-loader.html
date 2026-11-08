@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fire Truck Loader</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(#0d1420 0%, #05070c 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+  }
+
+  /* ---------- scene ---------- */
+  .scene {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    height: 250px;
+  }
+
+  .road {
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 60px;
+    height: 8px;
+    background: #2f2f33;
+    border-top: 2px solid #4a4a50;
+  }
+  /* dashed center line scrolling past (truck "drives" to the right) */
+  .road::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    bottom: -16px;
+    height: 4px;
+    background: repeating-linear-gradient(90deg, #f5c542 0 34px, transparent 34px 68px);
+    animation: scroll 0.5s linear infinite;
+  }
+  @keyframes scroll {
+    to { background-position: -68px 0; }
+  }
+
+  .shadow {
+    position: absolute;
+    bottom: 62px;
+    left: 50%;
+    width: 400px;
+    height: 14px;
+    margin-left: -200px;
+    background: radial-gradient(ellipse, rgba(0, 0, 0, 0.55), transparent 70%);
+  }
+
+  /* ---------- truck ---------- */
+  .truck {
+    position: absolute;
+    bottom: 68px;               /* wheel bottoms touch the road */
+    left: 50%;
+    width: 380px;
+    height: 150px;
+    margin-left: -190px;
+    animation: bob 0.6s ease-in-out infinite;
+  }
+  @keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-3px); }
+  }
+
+  .body {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 245px;
+    height: 84px;
+    background: linear-gradient(#e53935, #b71c1c);
+    border-radius: 10px 6px 6px 10px;
+  }
+  .body::before {               /* lettering */
+    content: "POMPIERS";
+    position: absolute;
+    top: 8px;
+    left: 0; right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    z-index: 2;
+  }
+  .doors {                      /* compartment doors */
+    position: absolute;
+    left: 8px; right: 8px;
+    bottom: 6px;
+    height: 24px;
+    border-top: 2px solid rgba(255, 255, 255, 0.55);
+    background: repeating-linear-gradient(90deg, transparent 0 36px, rgba(0, 0, 0, 0.3) 36px 40px);
+  }
+
+  .stripe {                     /* white stripe across body + cab */
+    position: absolute;
+    left: 6px; right: 6px;
+    bottom: 58px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 2px;
+    z-index: 1;
+  }
+
+  .cab {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    width: 122px;
+    height: 72px;
+    background: linear-gradient(#e53935, #c62828);
+    border-radius: 10px 24px 6px 6px;
+  }
+  .cab .window {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    width: 60px;
+    height: 28px;
+    background: linear-gradient(#cfeaff, #7ec3ea);
+    border-radius: 8px 12px 4px 4px;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+  }
+  .cab::before {                /* bumper */
+    content: "";
+    position: absolute;
+    right: -6px;
+    bottom: 4px;
+    width: 10px;
+    height: 22px;
+    background: #9aa0a6;
+    border-radius: 3px;
+  }
+  .cab::after {                 /* headlight */
+    content: "";
+    position: absolute;
+    right: 3px;
+    bottom: 34px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ffe082;
+    box-shadow: 0 0 8px 3px rgba(255, 224, 130, 0.8);
+  }
+
+  .ladder {
+    position: absolute;
+    left: -14px;
+    bottom: 118px;
+    width: 262px;
+    height: 12px;
+    background: repeating-linear-gradient(90deg, #e8e8e8 0 8px, #9aa0a6 8px 14px);
+    border: 2px solid #7d8288;
+    border-radius: 4px;
+    transform: rotate(-4deg);
+    transform-origin: right bottom;
+  }
+
+  .light {
+    position: absolute;
+    bottom: 102px;              /* on the cab roof */
+    width: 18px;
+    height: 12px;
+    border-radius: 8px 8px 2px 2px;
+  }
+  .light.red  { right: 40px; background: #ff2a2a; animation: flashA 0.8s linear infinite; }
+  .light.blue { right: 14px; background: #2a7bff; animation: flashB 0.8s linear infinite; }
+  @keyframes flashA {
+    0%, 49%   { opacity: 1;   box-shadow: 0 0 14px 5px rgba(255, 40, 40, 0.9); }
+    50%, 100% { opacity: 0.2; box-shadow: none; }
+  }
+  @keyframes flashB {
+    0%, 49%   { opacity: 0.2; box-shadow: none; }
+    50%, 100% { opacity: 1;   box-shadow: 0 0 14px 5px rgba(60, 120, 255, 0.9); }
+  }
+
+  .wheel {
+    position: absolute;
+    bottom: -23px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 5px solid #101215;
+    background:
+      radial-gradient(circle, #dfe3e8 0 6px, transparent 7px),
+      linear-gradient(#9aa0a6, #9aa0a6) center / 38px 5px no-repeat,
+      linear-gradient(#9aa0a6, #9aa0a6) center / 5px 38px no-repeat,
+      #23262b;
+    animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  .wheel.w1 { left: 34px; }
+  .wheel.w2 { left: 128px; }
+  .wheel.w3 { right: 26px; }
+
+  /* ---------- loader bits ---------- */
+  .label {
+    color: #e8ecf1;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 6px;
+  }
+  .label .dots span {
+    opacity: 0;
+    animation: blink 1.2s infinite;
+  }
+  .label .dots span:nth-child(2) { animation-delay: 0.2s; }
+  .label .dots span:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes blink {
+    0%, 100% { opacity: 0; }
+    50%      { opacity: 1; }
+  }
+
+  /* hose filling with water = progress bar */
+  .hose {
+    width: 320px;
+    height: 16px;
+    border: 3px solid #666;
+    border-radius: 10px;
+    background: #15181d;
+    overflow: hidden;
+  }
+  .hose .water {
+    height: 100%;
+    width: 0%;
+    background: repeating-linear-gradient(45deg, #1e88e5 0 14px, #63b3ff 14px 28px);
+    animation:
+      fill 3s ease-in-out infinite,
+      flow 0.6s linear infinite;
+  }
+  @keyframes fill {
+    0%   { width: 0%;    opacity: 1; }
+    75%  { width: 100%;  opacity: 1; }
+    90%  { width: 100%;  opacity: 1; }
+    100% { width: 100%;  opacity: 0; }
+  }
+  @keyframes flow {
+    to { background-position: 28px 0; }
+  }
+</style>
+</head>
+<body>
+  <div class="scene">
+    <div class="road"></div>
+    <div class="shadow"></div>
+    <div class="truck">
+      <div class="body"><div class="doors"></div></div>
+      <div class="stripe"></div>
+      <div class="cab"><div class="window"></div></div>
+      <div class="ladder"></div>
+      <span class="light red"></span>
+      <span class="light blue"></span>
+      <div class="wheel w1"></div>
+      <div class="wheel w2"></div>
+      <div class="wheel w3"></div>
+    </div>
+  </div>
+
+  <div class="label">LOADING<span class="dots"><span>.</span><span>.</span><span>.</span></span></div>
+  <div class="hose"><div class="water"></div></div>
+</body>
+</html>
