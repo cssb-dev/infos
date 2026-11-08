@@ -5,34 +5,27 @@
 
   <body>
 
-    <noscript>Veuillez activer le javascript pour que cette page fonctionne correctement.</noscript>
-
     {{ content }}
 
     {% include footer.html %}
 
     <script>
-    // Copyright @ChatGPT
-    // Function to check if the screen width is below a certain threshold (e.g., 768 pixels)
-    function isSmallScreen() {
-      return window.innerWidth < 768;
-    }
-    
-    // Function to reload the page when scrolling down on a small screen
+    // Pull-to-refresh on small screens: reload the page when the user scrolls
+    // back to the top. Only after the page was actually scrolled down first,
+    // so an overscroll bounce at the top does not trigger a spurious reload.
+    var scrolledDown = false;
     function reloadOnScroll() {
-      if (isSmallScreen()) {
-        // Listen for the scroll event
-        window.addEventListener('scroll', function () {
-          // Check if the user has scrolled to the bottom of the page
-          if (window.scrollY === 0) {
-            // Reload the page
-            location.reload();
-          }
-        });
+      if (window.innerWidth >= 768) {
+        return;
       }
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) {
+          scrolledDown = true;
+        } else if (window.scrollY === 0 && scrolledDown) {
+          location.reload();
+        }
+      });
     }
-    
-    // Call the function to set up the scroll event listener
     reloadOnScroll();
     </script>
     

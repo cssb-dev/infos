@@ -21,7 +21,7 @@
 title: CSSB - Informations
 description: Site d'Informations et de Documentation - Compagnie Secouriste Sainte Barbe
 theme_color: a80000 # Accent colors on some browsers and embeds # Do not include the # of the HEX color code
-baseurl: / # the subpath of your site, e.g. /support
+baseurl: "" # the subpath of your site, e.g. /support
 url: https://infos.cssb.fr # the base hostname AND PROTOCOL for your site, e.g. http://example.com
 
 content_type: Documentation #Define whether this is a knowledge base, help center, or something else
@@ -72,7 +72,6 @@ help_two_button:
 help_two_link: 
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-last-modified-at
